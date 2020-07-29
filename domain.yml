@@ -1,31 +1,31 @@
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
+  - saludar
+  - despedir
+  - afirmar
+  - negar
+  - animo_bien
+  - animo_mal
+  - pregunta_eres_robot
 
 responses:
-  utter_greet:
-  - text: "Hey! How are you?"
+  utter_saludo:
+  - text: "Hola, ¿Como estas?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
+  utter_animar:
+  - text: "Esto te puede animar:"
     image: "https://i.imgur.com/nGF1K8f.jpg"
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_te_ayude:
+  - text: "¿Te fui de ayuda?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_feliz:
+  - text: "¡Bien, sigue asi!"
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_adios:
+  - text: "Adios"
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_soy_robot:
+  - text: "Soy un bot, desarrollado por lawbot.ia"
 
 session_config:
   session_expiration_time: 60
