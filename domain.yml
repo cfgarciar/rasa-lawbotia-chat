@@ -1,15 +1,25 @@
+session_config:
+  session_expiration_time: 30
+  carry_over_slots_to_new_session: true
+
 intents:
+  - faq:
+      use_entities: []
+  - chitchat:
+      use_entities: []
+  - out_of_scope:
+      triggers: respond_out_of_scope
+      use_entities: []
   - saludar
   - despedir
   - afirmar
   - negar
   - animo_bien
   - animo_mal
-  - pregunta_eres_robot
 
 responses:
   utter_saludo:
-  - text: "Hola, ¿Como estas?"
+    - text: "Hola, ¿Como estas?"
 
   utter_animar:
   - text: "Esto te puede animar:"
@@ -24,9 +34,7 @@ responses:
   utter_adios:
   - text: "Adios"
 
-  utter_soy_robot:
-  - text: "Soy un bot, desarrollado por lawbot.ia"
-
-session_config:
-  session_expiration_time: 60
-  carry_over_slots_to_new_session: true
+actions:
+- respond_faq
+- respond_chitchat
+- respond_out_of_scope
