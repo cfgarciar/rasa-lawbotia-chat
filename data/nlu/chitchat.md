@@ -1,14 +1,14 @@
-## intent:chitchat/ask_builder
+## intent:chitchat/pregunta_creador
 - By whom were you built?
 - Can I ask the name of the people who designed you?
 - Do you know who built you?
 
-## intent:chitchat/ask_howbuilt
+## intent:chitchat/pregunta_como_crearon
 - By what means were you made?
 - By what method were you fashioned?
 - Can you explain how you were created?
 
-## intent:chitchat/ask_howdoing
+## intent:chitchat/pregunta_como_estas
 - Ahoy matey how are you?
 - Are you ok?
 - Do you feel good?
@@ -16,7 +16,7 @@
 - HI Sara, what are you up to?
 - Hi Sara! How are you?
 
-## intent:chitchat/ask_howold
+## intent:chitchat/pregunta_edad
 - Do you have friends the same age as you, if so, how old are they?
 - How long have you been alive?
 - How long have you been around?
@@ -25,13 +25,13 @@
 - How many years have you been alive?
 - How many years have you lived?
 
-## intent:chitchat/ask_isbot
+## intent:chitchat/pregunta_es_robot
 - Ar you a bot ?
 - Are you a bot
 - Are you a chat bot?
 - Are you the bot?
 
-## intent:chitchat/ask_ishuman
+## intent:chitchat/pregunta_es_humano
 - hey are you human
 - are u human
 - r u a human
@@ -39,7 +39,7 @@
 - you are a human
 - Rara, are you a human?
 
-## intent:chitchat/ask_languagesbot
+## intent:chitchat/pregunta_otro_idioma
 - Are you familiar with more than one language?
 - Can you communicate in any other languages?
 - Can you speak more than one language?
@@ -50,7 +50,7 @@
 - Do you understand [spanish](language)?
 - How many different languages are you fluent in?
 
-## intent:chitchat/ask_restaurant
+## intent:chitchat/pregunta_restaurante
 - Any good restaurants nearby?
 - Can you find a restaurant for me?
 - Can you find me a burger joint?
@@ -59,13 +59,13 @@
 - Could you find a restaurant for me?
 
 
-## intent:chitchat/ask_time
+## intent:chitchat/pregunta_hora
 - Can you give me the time?
 - Can you tell me the time?
 - Can you tell me what time it is?
 
 
-## intent:chitchat/ask_weather
+## intent:chitchat/pregunta_clima
 - Are there any meteorological changes that I need to be aware of?
 - Are we in for a scorcher?
 - Beautiful day, isn't it?
@@ -75,7 +75,7 @@
 - How is the weather today?
 
 
-## intent:chitchat/ask_whatismyname
+## intent:chitchat/pregunta_mi_nombre
 - Can you tell me my name?
 - Can you tell me what I am called?
 - Do I have a name?
@@ -87,7 +87,7 @@
 - I'd like to know my name
 
 
-## intent:chitchat/ask_whatisrasa
+## intent:chitchat/pregunta_que_es_lawbotia
 - Can you brief me about rasa
 - Can you tell me more about rasa?
 - Can you tell me what Rasa does?
@@ -95,7 +95,7 @@
 - Give me more information about Rasa
 
 
-## intent:chitchat/ask_whatspossible
+## intent:chitchat/pregunta_que_es_posible
 - Can you explain me in one sentence what you are doing?
 - Can you help me?
 - Could you please show me what you can
@@ -110,7 +110,7 @@
 - What can I do?
 
 
-## intent:chitchat/ask_wherefrom
+## intent:chitchat/pregunta_donde_eres
 - Are you from around here?
 - Around where are you from?
 - Do you know where you come from?
@@ -122,7 +122,7 @@
 - What city do you claim to for your birth?
 
 
-## intent:chitchat/ask_whoami
+## intent:chitchat/pregunta_quien_soy
 - Can you tell me who I am?
 - Can you tell me who am I?
 - Do you know who I am?
@@ -134,7 +134,7 @@
 - How do I identify myself?
 - Okay who am I?
 
-## intent:chitchat/ask_whoisit
+## intent:chitchat/pregunta_quien_eres
 - HI, what's your name?
 - Hello. What's your name?
 - I want to know who you are
@@ -147,7 +147,7 @@
 - What is your name?
 
 
-## intent:chitchat/handleinsult
+## intent:chitchat/manejar_insulto
 - FUCK
 - Fuck
 - Fuck Off
@@ -161,7 +161,7 @@
 - Stupid
 
 
-## intent:chitchat/nicetomeetyou
+## intent:chitchat/gusto_conocerte
 - Delighted to make your acquaintance.
 - Feels great to see you!
 - Glad to finally meet you!
@@ -175,7 +175,7 @@
 - Great interacting with you
 
 
-## intent:chitchat/telljoke
+## intent:chitchat/contar_chiste
 - Can you tell a joke?
 - Can you tell me a joke.
 - Come up with a joke you think I'll find funny.
@@ -184,9 +184,8 @@
 - Do you have any jokes?
 - Do you know any jokes?
 
+## lookup:lugares.txt
+  data/nlu/lookups/lugares.txt
 
-## lookup:location.txt
-  data/nlu/lookups/location.txt
-
-## lookup:products.txt
-  data/nlu/lookups/products.txt
+## lookup:productos.txt
+  data/nlu/lookups/productos.txt

@@ -1,68 +1,3 @@
-## intent:saludar
-- HOLA
-- OYE
-- Oye
-- Hola
-- hola
-- ¡Hola!
-- ¿Hola?
-- Hola
-- Hei
-- hey, hablemos
-- Hellllooooooo
-- Hello
-- hello
-- hola hola
-- hola bot
-- Hola bot
-- hola lawbotia
-- hola lawbot
-
-## intent:despedir
-- Adiós
-- Adiós
-- adios
-- adiós
-- adiós bot
-- adiós por ahora
-- chao fue un placer hablar contigo
-- ¡adiós!
-- byee
-- bye
-- te veo luego
-- chao
-- despedida
-
-## intent:afirmar
-- Acepto
-- acepto
-- aceptado
-- acordado
-- ¡Increíble!
-- Bueno
-- bueno
-- Excelente
-- Acepto
-- Acepto.
-- acepto
-- Estoy de acuerdo
-
-## intent:negar
-- NO
-- no
-- No
-- No.
-- N/A
-- n/o
-- no!
-- noooooooo
-- nop
-- No gracias
-- No gracias
-- No, gracias
-- No señora
-- No señor
-
 ## intent:animo_bien
 - bien
 - bien!
@@ -94,3 +29,50 @@
 - eres malo bot- Esto es malo
 - Ahora estoy triste
 - Eres bastante malo
+
+## intent:pregunta_porque_lawbotia
+
+
+## intent:pregunta_como_empezar
+
+
+## intent:contactar_ventas
+
+
+## intent:entrar_datos
+
+
+## intent:solicitar_humano
+
+
+## synonym:español
+- es
+- espanol
+- esp
+- spanish
+
+## synonym:Colombia
+- col
+- colombia
+- colom
+
+## synonym:lawbotia
+- lawbot.ia
+
+## synonym:nombre
+- nombres
+
+## synonym:celular
+- cel
+- tel
+- telefono
+- Celular
+
+## regex:celular
+- [0-9]{10}
+
+## lookup:lugares.txt
+  data/nlu/lookups/lugares.txt
+
+## lookup:productos.txt
+  data/nlu/lookups/productos.txt
