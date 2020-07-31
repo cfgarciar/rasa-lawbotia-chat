@@ -1,3 +1,43 @@
+## faq
+* faq/lawbotia
+  - Nuestros canales son ...
+
+## faq
+* faq/canales
+  - Nuestros canales son ...
+
+## faq
+* faq/requisitos
+  - Nuestros canales son ...
+
+## faq
+* faq/idioma
+  - Nuestros canales son ...
+
+## faq
+* faq/costos
+  - Nuestros canales son ...
+
+## faq
+* faq/servicios
+  - Nuestros canales son ...
+
+## faq
+* faq/blog
+  - Nuestros canales son ...
+
+## faq
+* faq/terminos
+  - Nuestros canales son ...
+
+## faq
+* faq/privacidad
+  - Nuestros canales son ...
+
+## faq
+* faq/legal
+  - Nuestros canales son ...
+
 ## chitchat
 * chitchat/pregunta_creador
   -  One of the smart engineers at Rasa! 🧠

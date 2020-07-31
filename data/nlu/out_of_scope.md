@@ -37,27 +37,18 @@
 - Can you please send me an uber
 
 ## intent:out_of_scope/otro
-- I am asking you an out of scope question
-- 4 + 2 = ?
-- After registration I see that I have an available balance of 0.00000000. What does this balance represent?
-- Are you ready?
-- But you're an english site :(
-- Can I ask you questions first?
-- Can I die
-- Can I get a hamburger?
-- Can YouTube talk?
-- Can you call me back ?
-- Can you give me your datacenter's password
-- Can you give me your datacenter's password?
-- Can you make sandwiches?
-- Can you please send me an uber
-- Do I have to accept?
-- Do you know [Kevin Pelton](name)
-- Find nearest [pizzahut](company)
-- Have we met before?
-- HomeBase is advertised as a community. Is there a way to interact with other members of the community?
-- How long does it take to set up a Rasa bot?
-- I already told you! I'm a shitmuncher
-- I am User
-- I am an opioid addic
-- I am an opioid addict
+- Te estoy haciendo una pregunta fuera de alcance
+- 4 + 2 =?
+- Después del registro, veo que tengo un saldo disponible de 0.00000000. ¿Qué representa este equilibrio?
+- ¿Estás listo?
+- Pero eres un sitio en inglés :(
+- ¿Puedo hacerte preguntas primero?
+- Puedo morir
+- ¿Puedo comprar una hamburguesa?
+- ¿Puede YouTube hablar?
+- Podrías devolverme la llamada ?
+- ¿Me puede dar la contraseña de su centro de datos?
+- ¿Me puede dar la contraseña de su centro de datos?
+- ¿Puedes hacer sándwiches?
+- ¿Puedes enviarme un uber?
+- ¿Tengo que aceptar?

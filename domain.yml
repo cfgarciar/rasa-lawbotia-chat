@@ -1,33 +1,34 @@
 session_config:
-  session_expiration_time: 30
+  session_expiration_time: 60
   carry_over_slots_to_new_session: true
 
 intents:
-  - faq:
-      use_entities: []
-  - chitchat:
-      use_entities: []
-  - out_of_scope:
-      triggers: respond_out_of_scope
-      use_entities: []
-  - animo_bien
-  - animo_mal
-  - pregunta_porque_lawbotia
-  - pregunta_como_empezar
-  - contactar_ventas
-  - entrar_datos
-  - solicitar_humano
-  - afirmar
-  - negar
-  - saludar
-  - despedir
-  - agradecer
-  - explicar
-  - reaccion_positiva
-  - reaccion_negativa
-  - sin_ayuda
-  
+- faq:
+    use_entities: []
+- chitchat:
+    use_entities: []
+- out_of_scope:
+    triggers: respond_out_of_scope
+    use_entities: []
+- pregunta_porque_lawbotia
+- pregunta_como_empezar
+- contactar_ventas
+- entrar_datos
+- solicitar_humano
+- afirmar
+- negar
+- saludar
+- despedir
+- agradecer
+- explicar
+- reaccion_positiva
+- reaccion_negativa
+- sin_ayuda
+
 entities:
+- idioma
+- producto 
+- lugares
 - feedback_value
 
 responses:
@@ -86,9 +87,6 @@ responses:
   utter_contacto_email:
   - text: "No puede hablar con un humano directamente en este chat, pero puede enviarnos\
       \ un correo electrónico a contacto@lawbotia.com"
-
-  utter_preguntar_feedback:
-  - text: 
 
   utter_preguntar_feedback:
   - buttons:
