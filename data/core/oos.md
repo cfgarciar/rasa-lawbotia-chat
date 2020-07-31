@@ -1,14 +1,14 @@
 ## out of scope
 * out_of_scope
     - respond_out_of_scope
-    - utter_posibilidades:
+    - utter_posibilidades
 
 ## entrar datos fuera del flujo
 * saludar
     - utter_saludo
 * entrar_datos
     - utter_sin_estar_seguro
-    - utter_posibilidades:
+    - utter_posibilidades
 
 ## afirmar fuera del flujo
 * saludar

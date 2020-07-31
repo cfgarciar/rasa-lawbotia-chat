@@ -53,15 +53,13 @@
 - eres real?
 
 ## intent:chitchat/pregunta_otro_idioma
-- Are you familiar with more than one language?
-- Can you communicate in any other languages?
-- Can you speak more than one language?
-- Do you know any other languages?
-- Do you know other languages?
-- Do you speak [german](language)?
-- Do you speak any other languages?
-- Do you understand [spanish](language)?
-- How many different languages are you fluent in?
+- ¿Conoces más de un idioma?
+- ¿Puedes comunicarte en otros idiomas?
+- ¿Puedes hablar más de un idioma?
+- ¿Sabes algun otro idioma?
+- ¿Conoces otros idiomas?
+- ¿Hablas alguna otra lengua?
+- ¿En cuántos idiomas diferentes hablas con fluidez?
 
 ## intent:chitchat/pregunta_restaurante
 - ¿Hay buenos restaurantes cerca?
@@ -176,9 +174,3 @@
 - ¿Podrías contarme una broma?
 - ¿Tienes alguna broma?
 - ¿Sabes alguna broma?
-
-## lookup:lugares.txt
-  data/nlu/lookups/lugares.txt
-
-## lookup:productos.txt
-  data/nlu/lookups/productos.txt

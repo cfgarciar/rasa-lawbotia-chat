@@ -1,4 +1,4 @@
-## afirmar
+## intent:afirmar
 - Acepto
 - acepto
 - aceptado
@@ -12,7 +12,7 @@
 - acepto
 - Estoy de acuerdo
 
-## negar
+## intent:negar
 - NO
 - no
 - No
@@ -28,7 +28,7 @@
 - No señora
 - No señor
 
-## saludar
+## intent:saludar
 - HOLA
 - OYE
 - Oye
@@ -48,7 +48,7 @@
 - hola lawbotia
 - hola lawbot
 
-## despedir
+## intent:despedir
 - Adiós
 - Adiós
 - adios
@@ -63,7 +63,7 @@
 - chao
 - despedida
 
-## agradecer
+## intent:agradecer
 - Gracias
 - gracias
 - gracias!
@@ -86,7 +86,7 @@
 - si gracias
 - gracias por tu información
 
-## explicar
+## intent:explicar
 - Explícamelo?
 - explica eso?
 - quiero mas informacion
@@ -106,7 +106,7 @@
 - que significa esto?
 - ¿Cómo?
 
-## reaccion_positiva
+## intent:reaccion_positiva
 - bien
 - bien!
 - Yo estoy feliz
@@ -123,7 +123,7 @@
 - Eres realmente genial
 - contento
 
-## reaccion_negativa
+## intent:reaccion_negativa
 - Me siento mal
 - Estoy triste
 - Estoy súper triste
@@ -139,7 +139,7 @@
 - eres malo bot- Esto es malo
 - Ahora estoy triste
 
-## sin_ayuda
+## intent:sin_ayuda
 - Creo que no puedes ayudarme
 - y te llamas compañía bot? pff
 - ¿Tienes algo?

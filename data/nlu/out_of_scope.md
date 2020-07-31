@@ -39,7 +39,7 @@
 ## intent:out_of_scope/otro
 - Te estoy haciendo una pregunta fuera de alcance
 - 4 + 2 =?
-- Después del registro, veo que tengo un saldo disponible de 0.00000000. ¿Qué representa este equilibrio?
+- Después del registro, veo que tengo un saldo disponible de 0.00000000.
 - ¿Estás listo?
 - Pero eres un sitio en inglés :(
 - ¿Puedo hacerte preguntas primero?
