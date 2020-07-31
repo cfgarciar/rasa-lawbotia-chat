@@ -1,6 +1,3 @@
-## saludo
-* saludar
-    - utter_saludo
 
 ## gracias
 * agradecer
@@ -60,3 +57,4 @@
     - utter_pregunta_mas_lawbotia
 * negar
     - utter_algo_mas
+  

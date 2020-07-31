@@ -1,0 +1,54 @@
+## intent:out_of_scope/no_espanol
+- Wie fange ich mit Rasa an?
+- hilf mir beim start
+- tschüssikowski
+- ça va ?
+- wer bist Du?
+- come stai?
+- epdi iruka
+- kalhmera sara ti kaneis
+- kannst du auch deutsch?
+- kannst du dies auch auf deutsch?
+- oui je besoine de l'aide
+- tu parles francais?
+- tudo bom
+- kannst du mir helfen
+- tu kaisi he
+- こにちは
+- 日本語分かる？
+- chào
+- 你好
+- I'm speaking a non-english language.
+- 呵呵
+- 我该如何使用
+- 你懂中文吗？
+- 您好
+- 你叫什么名字
+- 你是谁
+- 中文
+- kya hindi me bat kar sakate ho
+- Dumme sara
+- αστεία λές
+- 卧槽
+- Can you call me back ?
+- Can you give me your datacenter's password
+- Can you give me your datacenter's password?
+- Can you make sandwiches?
+- Can you please send me an uber
+
+## intent:out_of_scope/otro
+- Te estoy haciendo una pregunta fuera de alcance
+- 4 + 2 =?
+- Después del registro, veo que tengo un saldo disponible de 0.00000000.
+- ¿Estás listo?
+- Pero eres un sitio en inglés :(
+- ¿Puedo hacerte preguntas primero?
+- Puedo morir
+- ¿Puedo comprar una hamburguesa?
+- ¿Puede YouTube hablar?
+- Podrías devolverme la llamada ?
+- ¿Me puede dar la contraseña de su centro de datos?
+- ¿Me puede dar la contraseña de su centro de datos?
+- ¿Puedes hacer sándwiches?
+- ¿Puedes enviarme un uber?
+- ¿Tengo que aceptar?

@@ -14,13 +14,15 @@
     <script>
         WebChat.default.init({
             selector: "#webchat",
-            initPayload: "/greet",
-            customData: { "language": "en" }, // arbitrary custom data. Stay minimal as this will be added to the socket
+            initPayload: "/saludar",
+            customData: { "language": "es" },
             socketUrl: "https://lawbotia.net",
             socketPath: "/socket.io/",
-            title: "Title",
-            subtitle: "Subtitle",
-            params: { "storage": "session" } // can be set to "local"  or "session". details in storage section.
+            title: "Lawbotia",
+            subtitle: "Soluciones Jurídicas Inteligentes",
+            profileAvatar: "https://rasa.com/assets/img/demo/rasa_avatar.png",
+            params: { "storage": "session" },
+            inputTextFieldHint: "Escribe tu mensaje..."
         })
     </script>
 </body>
