@@ -141,7 +141,6 @@
 
 ## sin_ayuda
 - Creo que no puedes ayudarme
-- ¿y eso es?
 - y te llamas compañía bot? pff
 - ¿Tienes algo?
 - salida

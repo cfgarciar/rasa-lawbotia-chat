@@ -1,15 +1,15 @@
 ## saludo
 * saludar
-  - utter_saludo
+    - utter_saludo
 
 ## gracias
 * agradecer
-  - utter_de_nada
-  - utter_algo_mas
+    - utter_de_nada
+    - utter_algo_mas
 
 ## adios
 * despedir
-  - utter_adios
+    - utter_adios
 
 ## chitchat
 * saludar
@@ -23,12 +23,12 @@
 * chitchat
     - respond_chitchat
 
-## algo mas? - si
+## algo mas? si
     - utter_algo_mas
 * afirmar
     - utter_que_mas
 
-## algo mas? - no
+## algo mas? no
     - utter_algo_mas
 * negar
     - utter_entendido
@@ -36,8 +36,8 @@
 ## algo mas?
     - utter_algo_mas
 * entrar_datos
-    - utter_no_estar_seguro
-    - utter_possibilities
+    - utter_sin_estar_seguro
+    - utter_posibilidades
 
 ## reaccion positiva
 * reaccion_positiva

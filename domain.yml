@@ -24,12 +24,20 @@ intents:
 - reaccion_positiva
 - reaccion_negativa
 - sin_ayuda
+- feedback
 
 entities:
 - idioma
 - producto 
 - lugares
 - feedback_value
+
+slots:
+  feedback_value:
+    type: categorical
+    values:
+    - positive
+    - negative
 
 responses:
   utter_saludo:
@@ -52,8 +60,8 @@ responses:
   - text: 👍
   - text: "Entendido!"
 
-  utter_no_estar_seguro:
-  - text: "Hmmmm, no estoy seguro lo que quiere decir"
+  utter_sin_estar_seguro:
+  - text: Hmmmm, no estoy seguro lo que quiere decir
 
   utter_posibilidades:
   - text: "Me puede preguntar sobre:\n- Como empezar con lawbot.ia\n- Cuales son los\

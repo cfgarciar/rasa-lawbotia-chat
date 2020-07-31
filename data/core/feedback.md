@@ -6,13 +6,13 @@
 
 ## feedback2
     - utter_preguntar_feedback
-* enter_data
+* entrar_datos
     - utter_entendido
     - utter_algo_mas
 
 ## feedback3
     - utter_preguntar_feedback
-* affirm
+* afirmar
     - utter_grandioso
     - utter_algo_mas
 

@@ -7,7 +7,7 @@
 * saludar
     - utter_saludo
 * entrar_datos
-    - utter_no_estar_seguro
+    - utter_sin_estar_seguro
     - utter_posibilidades:
 
 ## afirmar fuera del flujo
@@ -19,5 +19,5 @@
 ## saludar fuera del flujo
 * saludar
     - utter_saludo
-* saludo OR entrar_datos{"nombre": "alejandra"}
+* saludar OR entrar_datos{"nombre": "alejandra"}
     - utter_saludo
