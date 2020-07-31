@@ -27,6 +27,8 @@ intents:
   - reaccion_negativa
   - sin_ayuda
   
+entities:
+- feedback_value
 
 responses:
   utter_saludo:
@@ -63,6 +65,10 @@ responses:
   utter_reaccion_negativa:
   - text: "Que mal"
 
+  utter_sin_ayuda:
+  - text: "Por ahora es todo lo que puedo hacer. Si tiene alguna sugerencia \
+      \ por favor dejenosla saber!"
+
   utter_porque_lawbotia:
   - text: "lawbotia es ..."
 
@@ -73,6 +79,33 @@ responses:
   - text: "Puedes obtener mas información llenando nuestro \
   \ [formulario de contacto](https://lawbotia.com/contacto/). LLenalo y te enviaremos \
   \ toda la informacion que requieras."
+
+  utter_mas_informacion:
+  - text: "Seguro, vamos a programar una llamada de nuestro personal de ventas"
+
+  utter_contacto_email:
+  - text: "No puede hablar con un humano directamente en este chat, pero puede enviarnos\
+      \ un correo electrónico a contacto@lawbotia.com"
+
+  utter_preguntar_feedback:
+  - text: 
+
+  utter_preguntar_feedback:
+  - buttons:
+    - payload: /feedback{"feedback_value":"positivo"}
+      title: 👍
+    - payload: /feedback{"feedback_value":"negativo"}
+      title: 👎
+    text: "¿Como va esta conversacion hasta el momento?"
+
+  utter_grandioso:
+  - text: Grandioso! 👍
+  - text: Eso es grandioso! 🙌
+
+  utter_sin_problemas:
+  - text: No se preocupe!
+  - text: De nada!
+  - text: Estoy aqui para servirle.
 
   utter_animar:
   - text: "Esto te puede animar:"
