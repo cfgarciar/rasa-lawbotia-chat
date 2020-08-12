@@ -1,24 +1,178 @@
 ## intent:pregunta_porque_lawbotia
-- por qué lawbotia
-- Por que lawbotia?
-- por qué usar lawbotia sobre otra plataforma disponible
-- ¿Por qué usaría tu servicio?
-- ¿Por qué es interesante lawbotia?
-- ¿Por qué lawbotia?
-- ¿Por qué elegir lawbotia?
-- por qué debería usar lawbotia
-- Por qué elegirías lawbotia?
-- por que lawbotia es diferente?
-- por qué usar lawbotia
-- ¿Por qué es útil lawbotia?
-- ¿Por qué es mejor lawbotia?
-- ¿Por qué debería elegir lawbotia?
-- ¿Por qué es tan bueno el lawbotia?
-- por qué es bueno lawbotia
-- ¿Por qué necesito lawbotia?
-- por que solo lawbotia
-- ¿Qué tiene de bueno usar lawbotia?
-- dame una razón para usar lawbotia
+- Por qué debería usar lawbot.ia en lugar de un [abogado normal](competencia)
+- por qué lawbot.ia
+- ¿Por qué debería usar lawbot.ia?
+- ¿Por qué debería cambiarme a lawbot.ia?
+- ¿Qué tiene de bueno usar lawbot.ia?
+- ¿en qué es mejor lawbot.ia que un [abogado normal](competencia)
+- ¿Por qué debería usar lawbot.ia en lugar de otros servicios?
+- ¿Es mejor usar lawbot.ia o un [buffet de abogados](competencia)?
+- ¿Es lawbot.ia mejor que un [abogado normal](competencia)?
+- ¿Qué distingue a lawbot.ia?
+- dame una razón para usar lawbot.ia
+- Por qué debería cambiar a mi [abogado](competencia) por lawbot.ia
+- por qué debería cambiar a mi [abogado](competencia) 
+- dame una razón para usar a lawbot.ia
+- ¿Por qué cambiarse a lawbot.ia?
+- ¿Por qué cambiar mi [abogado](competencia)?
+- ¿Por qué no usar otros servicios?
+- ¿Por qué debería cambiar?
+- Me refiero por qué tú y no otros
+- por qué usar lawbot.ia
+- ¿Por qué es útil lawbot.ia?
+- ¿Por qué lawbot.ia es mejor?
+- ¿Por qué lawbot.ia?
+- ¿Por qué debería elegir lawbot.ia?
+- ¿Por qué lawbot.ia es tan bueno?
+- por que lawbot.ia es bueno
+- ¿Por qué necesito lawbot.ia?
+- ¿Por qué debería usar lawbot.ia?
+- por qué solo lawbot.ia
+- por qué usar lawbot.ia
+- ¿Por qué cambiar?
+- ¿por qué no utilizar un [abogado normal](competencia)?
+- ¿Por qué la gente opta por el chatbot?
+- por qué usar lawbot.ia sobre otras plataformas
+- ¿Por qué lawbot.ia es una buena opcion?
+- ¿Por qué usaría su producto?
+- ¿Por qué es interesante lawbot.ia?
+- ¿Por qué lawbot.ia?
+- ¿Por qué elegir lawbot.ia?
+
+## intent:pregunta_contactar_ventas
+- Pero quería una llamada de ventas.
+- ¿Puedo tener una llamada mañana a las 3 pm?
+- ¿Puedo tener una llamada?
+- ¿Cómo puedo contactar con el equipo?
+- También quiero reservar una llamada de ventas.
+- Quiero tener una suscripción para su producto.
+- Quiero hablar con tu vendedor.
+- Quiero hablar con su gente de ventas.
+- quiero una llamada de ventas
+- Quiero una oferta para tu plataforma
+- quiero reservar una llamada
+- Quiero reservar una llamada con su equipo de ventas.
+- Quiero contactar con ventas
+- Quiero contactar con el equipo comercial
+- Quiero ponerme en contacto con sus vendedores.
+- Quiero saber más sobre sus precios.
+- quiero hablar con ventas
+- Quiero hablar con alguien sobre su sistema de precios.
+- Quiero hablar con sus vendedores.
+- Quiero hablar con su personal de ventas.
+- Quiero hablar con tu equipo de ventas.
+- Quiero hablar con ventas sobre nuestro proyecto.
+- me gustaría programar una llamada
+- Me gustaría programar una llamada de ventas.
+- Me gustaría contactar con su equipo de ventas por favor
+- Me gustaría tener una llamada con el equipo de ventas.
+- Me gustaría tener una demostración programada
+- Me gustaría hablar con alguien de su equipo de ventas.
+- Ok, quiero hablar con su equipo de ventas de inmediato.
+- Por favor, comuníqueme con alguien de ventas.
+- Programe una llamada de ventas
+- Ventas
+- una llamada
+- una llamada de ventas con [Rufus Gardner] (nombre) estaría bien
+- programar una llamada
+- programar una llamada de venta
+- programar una venta
+- programar una llamada de ventas
+- programar una cita
+- programar llamada
+- programar una llamada de ventas
+- pero quiero una llamada de ventas
+- llamada
+- llamar a ventas
+- llamar al equipo de ventas
+- ¿Puedo recibir una llamada de ventas?
+- ¿puedo hablar con el equipo de ventas?
+- ¿Puedo hablar con un representante de ventas?
+- ¿Puedo hablar con su desagradable vendedor?
+- ¿alguien puede llamarme por favor?
+- puedes conectarme con ventas
+- comuníqueme con su departamento de ventas
+- conectarse a ventas
+- conectarse con el equipo de ventas
+- contacto
+- contacte a cualquier vendedor
+- llamada de contacto con ventas
+- contactar a ventas
+- póngase en contacto con ventas por mí
+- contacto con ventas
+- consígueme el equipo de ventas
+- dame a alguien que pueda explicar tu modelo de negocio
+- tener una llamada
+- tener una llamada con el equipo de ventas
+- hm ok, entonces quiero hablar con el vendedor
+- hmmm ventas
+- ¿Cómo funcionan sus precios?
+- cómo reservar una llamada de ventas
+- cómo reservar una llamada de ventas>
+- ¿Cómo reservar una llamada de ventas?
+- elijo la llamada
+- elijo la llamada con ventas
+- necesito una llamada de ventas
+- necesito la solicitud de llamada
+- necesito saber cómo puedo reservar soporte
+- necesito hablar con su equipo de ventas
+- necesito hablar con ventas
+- necesito tu fuente de datos
+- creo que quiero hablar con su gente de ventas
+- quiero una plataforma por favor
+- quiero una llamada de ventas
+- quiero que alguien me llame
+- quiero hacer una reserva sobre la reserva de ventas
+- quiero estar conectado con su equipo de ventas
+- quiero estar en contacto con ventas
+- quiero reservar una cita
+- quiero reservar una llamada de ventas
+- quiero reservar una llamada de ventas
+- quiero llamar
+- quiero charlar con ventas
+- quiero conectarme con ventas
+- quiero conectarme con su equipo de ventas
+- quiero conectar tus ventas
+- quiero contactar a ventas
+- quiero contactar con ventas ahora
+- quiero contactar con el soporte de ventas
+- quiero contactar con su equipo de ventas
+- quiero tener una llamada con ventas
+- quiero hablar con ventas
+- me gustaría hablar con ventas por favor
+- me gustaría hablar con un vendedor
+- me gustaría hablar con ventas
+- id como una llamada por favor
+- solo dame una llamada
+- déjame llamar al equipo de ventas
+- déjame contactar a ventas
+- déjame tener la llamada
+- déjame hablar de ventas
+- déjame hablar con ventas
+- déjame hablar con tus vendedores
+- déjame hablar con tu personal de ventas
+- ¡déjame hablar con tu personal de ventas!
+- ponte en contacto con ventas ahora
+- hablemos con ventas
+- luego el contacto de ventas
+- obviamente habla con tu increíble equipo de ventas
+- ok, quiero hablar con sus vendedores
+- ok ventas
+- por favor conécteme con ventas
+- solicitar una llamada
+- solicitar llamada
+- solicitar llamada con el equipo de ventas
+- solicitar llamada de ventas
+- solicitar equipo de ventas
+- ventas
+- llamada de venta
+- contacto de ventas
+- Departamento de ventas
+- ventas por favor
+- ventas ventas ventas
+- equipo de ventas
+- conexión del equipo de ventas
+- hablar con el equipo de ventas
 
 ## intent:pregunta_como_empezar
 - ¿Cómo puedo comenzar con lawbot.ia?
@@ -27,32 +181,10 @@
 - ¿Cómo puedo comenzar?
 - ¿Cómo puedo probar el chatbot?
 
-## intent:contactar_ventas
-- ¿Puedo tener una llamada mañana a las 3pm?
-- ¿Puedo tener una llamada?
-- ¿como puedo reservar una llamada de ventas?
-- ¿Cómo puedo contactar al equipo?
-- También quiero reservar una llamada de ventas
-- Quiero tener una suscripción para tus servicios
-- Quiero hablar con un vendedor
-- Quiero hablar con su personal de ventas.
-- Quiero una llamada de ventas
-- Quiero una oferta para tu plataforma
-- Quiero reservar una llamada
-- Quiero reservar una llamada con tu equipo de ventas
-- Quiero comprar la plataforma lawbotia
-- Quiero contactar a ventas
-- Quiero contactar al equipo de ventas
-- Quiero ponerme en contacto con sus vendedores
-- Quiero obtener más información sobre sus precios
-- Quiero hablar con ventas
-- Quiero hablar con alguien sobre tu sistema de precios
-- Quiero hablar con tus vendedores
-- Quiero hablar con tu equipo de ventas
 
 ## intent:solicitar_humano
 - ¿Puedo hablar con alguien que realmente pueda ayudarme?
-- ¿Puedo hablar con [Tyrone King] (nombre)?
+- ¿Puedo hablar con [ernesto romero](nombre)?
 - Puedo hablar con una persona?
 - ¿Puedo hablar con un humano?
 - puedo hablar con humanos
@@ -66,8 +198,83 @@
 - No me gusta hablar con una máquina
 - ¿También hay humanos trabajando para su empresa?
 - tienes apoyo humano?
+- dame un humano adecuado
+- dame un humano
+- dame un humano ahora
+- traspaso humano
+- no quiero hablar con un bot
+- quiero hablar con un [gerente] (funcion_trabajo)
+- quiero hablar con una persona real
+- quiero hablar con el servicio al cliente
+- quiero hablar con un humano
+- quiero hablar con una persona
+- quiero hablar con humanos
+- quiero hablar con alguien en lawbot.ia
+- quiero hablar con otra persona
+- quiero hablar con alguien que sea más inteligente que tú
+- me gustaría hablar con una persona
+- prefiero hablar con un empleado real de lawbot.ia
+- Me gustaría hablar con un empleado real de lawbot.ia
+- déjame hablar con una persona real por favor
+- déjame hablar con un humano
+- déjame hablar con una persona real
+- por favor un humano
+- agente de servicio
+- alguien de atención al cliente
+- Hablar con una persona real
+- hablar con un bot es estúpido
+- eso es molesto me gustaría hablar con alguien real
+- eso no ayuda, ¿puedo hablar con un humano?
+- mal, quiero hablar con un humano
+- puedo hablar con un humano
+- puedo hablar con una persona
+- quiero charlar con humanos
+- ¿Cómo le hablo a un humano?
+- hablar con un humano
+- ¿Puedo hablar con un humano en su lugar?
+- no importa .... no eres humano ... necesito hablar con una persona en vivo
+- ¿Puedes conseguir que un humano me ayude?
+- puedo hablar con un humano
+- no, quiero hablar con una persona
+- ¿Puedes pasarle una conversación a un humano?
+- ¿Puedo hablar con un humano?
+- quiero un humano :(
+- puedo hablar con humanos
+- ¿Puedo hablar con una persona real?
+- conectarme con una persona real
+- necesito una persona real
+- puede pasarme con una persona real
+- déjame hablar con una persona real
+- déjame hablar con una persona real por favor
+- quiero hablar con una persona real
 
 ## intent:entrar_datos
+- $1000
+- 10 pesos
+- 10000 pesos
+- 10000000
+- 10 mil
+- 100 mil
+- 10 millones
+- 150 mil
+- 150000
+- 2 pesos
+- 20 mil
+- 240 mil pesos
+- 5 mil
+- 5 millones
+- 5o mil
+- 50,000 pesos
+- 50,000,000 
+- 50k
+- $60 milliones
+- 75000-150000 pesos
+- $0.00
+- $1000
+- 0
+- 1 millon
+- 1 millon de los grandes
+- 10 mill
 - 1000000
 - 100000
 - 1000
@@ -78,6 +285,223 @@
 - 1231
 - 12
 - 2 millones
+- 200 mil
+- 200000000
+- 20000
+- 20000k
+- 2000k
+- 200k
+- 25,000
+- 300 pesos
+- 300000
+- 300k
+- 3
+- 500 millones
+- 500000
+- 5000
+- 500k
+- 50 p
+- 5 mil
+- 6000000
+- 900 mil pesos
+- 90k
+- 99
+- yo soy [patricia](nombre) [romero](apellido)
+- yo soy [andrea](nombre) [diaz](apellido)
+- yo soy [juan](nombre) [perez](apellido)
+- Mi nombre es [lina](nombre)
+- Mi nombre es [jenny](nombre)
+- Mi nombre es [joanna](nombre)
+- Mi nombre es [Hernando](nombre)
+- Lo escribí en [chino](idioma)
+- Lo escribí en [holandés](idioma)
+- Lo escribí en [inglés](idioma)
+- Lo escribí en [francés](idioma)
+- Lo escribí en [alemán](idioma)
+- Lo escribí en [italiano](idioma)
+- Lo escribí en [mandarín](idioma)
+- Lo escribí en [portugués](idioma)
+- Lo escribí en [español](idioma)
+- quiero ayuda en un problema que tengo
+- Soy [jefe de proyecto](funcion_trabajo)
+- Soy [desarrollador](funcion_trabajo)
+- Soy una [mujer de negocios](funcion_trabajo)
+- Soy un [trabajador de la construcción](funcion_trabajo)
+- Soy [diseñador](funcion_trabajo)
+- Soy [desarrollador](funcion_trabajo)
+- Soy un [conserje](funcion_trabajo)
+- Soy [ingeniero](funcion_trabajo)
+- Soy [gerente de producto](funcion_trabajo)
+- Soy [gerente de proyectos](funcion_trabajo)
+- Soy un [estudiante](funcion_trabajo)
+- Soy un [investigador](funcion_trabajo)
+- Soy el [jefe](funcion_trabajo)
+- Soy el [desarrollador](funcion_trabajo)
+- Soy el [ingeniero principal](funcion_trabajo)
+- Soy [contador](funcion_trabajo)
+- Soy un [científico de datos](funcion_trabajo)
+- Soy [jefe de seccion](funcion_trabajo)
+- Soy responsable de nuestro [departamento de innovación](funcion_trabajo)
+- Trabajo como [empleada de servicio](funcion_trabajo)
+- Trabajo como [independiente](funcion_trabajo)
+- [abogado](funcion_trabajo)
+- [medico](funcion_trabajo)
+- [CEO](funcion_trabajo)
+- [gerente](funcion_trabajo)
+- [CTO](funcion_trabajo)
+- Mi correo electrónico es [richard@simmons.com](email)
+- mi correo es [Carole@Hart.com](email)
+- mi correo es [Elinor_Stock@Higgenbotham.com](email)
+- mi correo es [K_Spivey@yahoo.com](email)
+- mi correo es [Kelly@Coulter.net](email)
+- mi correo es [M_Jones@Luna.com](email)
+- mi correo es [Mia_Gainey@gmail.com](email)
+- mi correo es [S_Calderon@Cofield.com](email)
+- mi correo es [Virginia@Brown.com](email)
+- [J_Herrera@gmail.com](email)
+- [K_Claytor@yahoo.com](email)
+- [K_Rainey@Yochum.net](email)
+- [Kristin@yahoo.com](email)
+- [Ebony@gmail.com](email)
+- [Robert.Sparks@gmail.com](email)
+- [Willie@gmail.com](email)
+- [abhbose3k@gmail.com](email)
+- Un bot de servicio al cliente
+- Un robot lobo
+- Banco ACME
+- Marcas ACME
+- Capaz de integrarse con paypal, wordpress, facebook y twilio
+- Un robot de cubitos de hielo
+- Nombres de países
+- Evaluar lawbotia
+- Flexible, pero buscando una alternativa de bajo costo
+- Me gustaría construir un robot dispensador de cubitos de hielo
+- Reservo un boleto de bus
+- No lo sé todavía
+- Gaste dinero
+- Sin trabajo
+- Ninguna
+- El maestro del desastre
+- Planeamos construir un plan de ventas para aumentar nuestras ventas 
+- Cueste lo que cueste
+- ninguna
+- ninguno lo construiré a partir de restos
+- mil millones
+- uno
+- uno que me halaga todas las mañanas
+- uno que me promoverá
+- uno que me pregunta mucho sobre mí
+- un bot
+- un bot para conseguir una promoción
+- un bot que envía imágenes
+- un chatbot para trapeadores
+- un chatbot para nuestra empresa
+- un bot de chocolate
+- un robot genial
+- un chico genial
+- un sistema de soporte de servicio al cliente
+- ¿una buena?
+- uno genial
+- un bot de salud
+- una herramienta de seguros que consulta a los clientes potenciales
+- un robot asesino
+- un robot de pizza
+- un bot de ventas
+- un robot sensible
+- un bot de mierda
+- una tortuga
+- un robot de voz
+- un robot de helado
+- alrededor de $ 500,000 por año
+- alrededor de 200k
+- alrededor de un millón de euros
+- probador de bots rudo
+- entre 100 a 200.000
+- gran bot viejo
+- abucheo
+- alrededor de 4,000,000 INR
+- ¿puedes probar con E_Conder@gmail.com en su lugar?
+- chatbot
+- director de limonada
+- nerd jefe en tecnologías rasa
+- conversacional
+- Servicio al Cliente
+- automatización del servicio al cliente
+- robot de automatización de servicio al cliente
+- no tengo uno
+- conductor
+- robot divertido
+- Entendido
+- medio millon
+- no tienen idea
+- jefe de biz deve
+- cuidado de la salud
+- no lo sé
+- no tengo ninguno
+- tengo unos 200 dólares en mi cuenta de ahorros
+- necesito un bot para la automatización del servicio al cliente
+- quiero construir todos los bots
+- quiero un gran bot para impresionar a mi jefe
+- quiero construir un bot
+- quiero construir un bot sobre mi
+- quiero construir un bot de salud
+- quiero construir todos los bots
+- quiero construir un bot de seguros
+- quiero construir bots
+- me gustaría construir un transformador
+- me gustaría construir glibber sensible o brillo
+- estoy solo
+- en el dominio de la salud
+- mío
+- n / A
+- ni idea
+- no estoy seguro todavía
+- todavía no estoy seguro, planeamos con 50 mil euros en este momento
+- nada
+- en eso me ascenderán
+- operaciones
+- nuestra estimación es 10k
+- hurgando en mi nariz
+- Por favor
+- por favor dame instrucciones para pip
+- resolución de problemas
+- asistente de ventas
+- bot de ventas
+- vendedor
+- somos una organización gubernamental encubierta
+- no tenemos uno
+- Planeamos construir un plan de ventas para aumentar nuestros ingresos
+- planeamos con 250.000 euros por un año
+- creemos 4 millones
+- estamos creando un asistente de conversación para que nuestros empleados
+- [Defensor del consumidor](funcion_trabajo)
+- [Obrero](funcion_trabajo)
+- [emprendedor](funcion_trabajo)
+- [celador](funcion_trabajo)
+- [empleada domestica](funcion_trabajo)
+- [gerente de TIC](funcion_trabajo)
+- [Propietario](funcion_trabajo)
+- [gestion de calidad](funcion_trabajo)
+- [Ingeniero civil](funcion_trabajo)
+- [asistente del director ejecutivo](funcion_trabajo)
+- [gerente de marca](funcion_trabajo)
+- [gerente general](funcion_trabajo)
+- [analista](funcion_trabajo)
+- [ingeniero quimico](funcion_trabajo)
+- [profesor](funcion_trabajo)
+- [diseñador](funcion_trabajo)
+- [conductor](funcion_trabajo)
+- [promotor](funcion_trabajo)
+- [vendedor](funcion_trabajo)
+- [marketing](funcion_trabajo)
+- [investigador](funcion_trabajo)
+- [sin trabajo](funcion_trabajo)
+- [gerente de producto](funcion_trabajo)
+- [jefe de proyecto](funcion_trabajo)
+- [comercial](funcion_trabajo)
+- [policia](funcion_trabajo)
+- [mensajero](funcion_trabajo)
+- [ayudante](funcion_trabajo)
 
 ## synonym:español
 - es
@@ -90,8 +514,8 @@
 - colombia
 - colom
 
-## synonym:lawbotia
-- lawbot.ia
+## synonym:lawbot.ia
+- lawbotia
 - law bot ia
 
 ## synonym:chatbot
@@ -108,8 +532,23 @@
 - telefono
 - Celular
 
+## synonym:porque
+- Porque
+- PORQUE
+- Por qué
+
+## synonym:humano
+- humanos
+- persona
+- gente
+- hombre
+- mujer
+
 ## regex:celular
 - [0-9]{10}
+
+## regex:saludo
+- hey[^\s]*
 
 ## lookup:municipios.txt
   data/nlu/lookups/municipios.txt

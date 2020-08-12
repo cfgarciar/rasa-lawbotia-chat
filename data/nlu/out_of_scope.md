@@ -35,20 +35,438 @@
 - Can you give me your datacenter's password?
 - Can you make sandwiches?
 - Can you please send me an uber
+- Je vous pose une question hors de portée.
+- 4 + 2 =?
+- Tu es prêt?
+- Mais vous êtes un site en anglais :(
+- Puis-je vous poser des questions en premier?
+- Je peux mourir
+- Puis-je avoir un hamburger?
+- YouTube peut-il parler?
+- Pouvez-vous me rappeler?
+- Pouvez-vous me donner le mot de passe de votre centre de données?
+- Pouvez-vous faire des sandwichs?
+- Pouvez-vous m'envoyer un uber?
+- Je dois accepter?
+- Nous nous sommes déjà vus?
+- Je t'ai déjà dit! Je suis merde
+- je suis un utilisateur
+- Je suis accro aux opioïdes
+- Je suis accro aux opioïdes
+- J'ai faim
+- Change d'opinion
+- je l'ai installé
+- Ich stelle Ihnen eine Frage außerhalb der Reichweite.
+- 4 + 2 =?
+- Sind Sie bereit?
+- Aber Sie sind eine Seite in Englisch :(
+- Kann ich Ihnen zuerst Fragen stellen?
+- Ich kann sterben
+- Kann ich einen Hamburger bekommen?
+- Kann YouTube sprechen?
+- Könnten Sie mich zurückrufen?
+- Können Sie mir das Passwort für Ihr Rechenzentrum geben?
+- Kannst du Sandwiches machen?
+- Kannst du mir einen Uber schicken?
+- Ich muss akzeptieren?
+- Wir haben uns schon mal gesehen?
+- Ich habe es dir schon gesagt! Ich bin Scheiße
+- Ich bin ein Benutzer
+- Ich bin opioidsüchtig
+- Ich bin opioidsüchtig
+- Ich bin am Verhungern
+- Ich habe meine Meinung geändert
+- Ich habe es installiert
+- Ti sto facendo una domanda fuori portata.
+- 4 + 2 =?
+- Siete pronti?
+- Ma tu sei un sito in inglese :(
+- Posso prima farti delle domande?
+- Posso morire
+- Posso avere un hamburger?
+- YouTube può parlare?
+- Potresti richiamarmi?
+- Puoi darmi la password per il tuo data center?
+- Sai fare i panini?
+- Puoi mandarmi un uber?
+- Devo accettare?
+- Ci siamo visti prima?
+- Te l'ho già detto! Sono una merda
+- Sono un utente
+- Sono dipendente dagli oppioidi
+- Sono dipendente dagli oppioidi
+- Sono affamato
+- Ho cambiato idea
+- L'ho installato
+- 我問你一個遙不可及的問題。
+- 4 + 2 =？
+- 你準備好了嗎？
+- 但是您是一個英文網站:(
+- 我可以先問你一個問題嗎？
+- 我會死
+- 我可以吃一個漢堡嗎？
+- YouTube可以說話嗎？
+- 你能給我回電話嗎？
+- 您能給我您數據中心的密碼嗎？
+- 可以做三明治嗎？
+- 你能送我一個超級嗎？
+- 我必須接受嗎？
+- 我們曾經見過面嗎？
+- 我已經跟你說過！ 我很爛
+- 我是用戶
+- 我沉迷於阿片類藥物
+- 我沉迷於阿片類藥物
+- 我餓死了
+- 我改變主意了
+- 我已經安裝了
+- Size ulaşılamayacak bir soru soruyorum.
+- 4 + 2 =?
+- Hazır mısın?
+- Ama siz İngilizce bir sitedesiniz :(
+- Önce size soru sorabilir miyim?
+- Ölebilirim
+- Bir hamburger alabilir miyim?
+- YouTube konuşabilir mi?
+- Beni geri arayabilir misin?
+- Bana veri merkezinizin şifresini verebilir misiniz?
+- Sandviç yapabilir misin?
+- Bana bir uber gönderir misin?
+- Kabul etmek zorunda mıyım?
+- Daha önce görüştük mü?
+- Ben zaten söyledim! Ben bokum
+- ben bir kullanıcıyım
+- Ben opioid bağımlısıyım
+- Ben opioid bağımlısıyım
+- Açlıktan ölüyorum
+- Fikrimi değiştirdim
+- Ben kurdum
 
 ## intent:out_of_scope/otro
-- Te estoy haciendo una pregunta fuera de alcance
+- Te estoy haciendo una pregunta fuera de alcance.
 - 4 + 2 =?
-- Después del registro, veo que tengo un saldo disponible de 0.00000000.
 - ¿Estás listo?
 - Pero eres un sitio en inglés :(
 - ¿Puedo hacerte preguntas primero?
 - Puedo morir
-- ¿Puedo comprar una hamburguesa?
+- ¿Puedo conseguir una hamburguesa?
 - ¿Puede YouTube hablar?
 - Podrías devolverme la llamada ?
-- ¿Me puede dar la contraseña de su centro de datos?
 - ¿Me puede dar la contraseña de su centro de datos?
 - ¿Puedes hacer sándwiches?
 - ¿Puedes enviarme un uber?
 - ¿Tengo que aceptar?
+- ¿Nos hemos visto antes?
+- ¡Ya te dije! Soy un mierda
+- soy usuario
+- soy adicto a los opioides
+- soy adicto a los opioides
+- Estoy hambriento
+- Cambié de opinión
+- lo he instalado
+- Necesito un médico
+- ¡Necesito una novia!
+- necesito comer pastel
+- quiero comprar un avión
+- Quiero casarme contigo
+- quiero una computadora portátil nueva
+- quiero reservar un hotel
+- quiero cocina francesa
+- Quiero pizza
+- Quiero morirme
+- quiero pedir pizza
+- quiero usar tubería
+- Voy a ver
+- soy un mierda
+- ¿Es este chatbot orientado a objetivos?
+- ¿Hoy es sábado?
+- Envíame la guía
+- Hazme un sándwich
+- Bonito nombre
+- ¿Ahora?
+- Robot de pizza
+- recarga
+- Probar no funciona
+- El tiempo es bueno
+- Hoy
+- Pruébalo roto
+- ¿Que día es hoy?
+- ¿Que comiste ayer?
+- ¿Qué prefieres?
+- Cuál es la fecha de hoy
+- ¿Cuáles son tus aficiones?
+- ¿Qué te hace mejor que un humano?
+- ¿Qué es 1 + 1?
+- ¿Qué hace YouTube?
+- ¿Cuál es tu sistema de backend?
+- ¿Dónde estoy ahora mismo?
+- ¿Dónde estoy?
+- OMS ?
+- Quiénes son tus clientes
+- ¿Por qué no respondes?
+- ¿No me preguntarás cómo estoy?
+- Estás azul.
+- un ratón domesticado llegará a su puerta en los próximos días
+- Estas soltero
+- ¿de nuevo?
+- alexa, pide 5 toneladas de cloruro de sodio
+- y hacer ruidos de gallina en el teléfono
+- ¿Vale la pena la suscripción al boletín?
+- ¿eres facebook?
+- eres tú, facebook?
+- ¿Estas soltero?
+- ¿eres dev?
+- ¿Eres ruso?
+- estás enfermo
+- mejor que tu
+- reservar un billete
+- pero te acabo de decir eso :(
+- compra uno por favor
+- comprar comestibles
+- llámame padre
+- ¿podemos seguir charlando?
+- puedes reservar la cena
+- puedes animarme
+- puedes cocinar la cena
+- puedes darme una taza de café
+- ¿puedes ayudarme con los documentos?
+- ¿puedes ayudarme con tus documentos?
+- ¿puedes ayudarme con tus documentos?
+- ¿Puedes aprender de nuestra conversación?
+- ¿Puedes hablar de política?
+- Entiendes ?
+- no pueden ver
+- chgfhgh
+- chino ¿ok?
+- más frío
+- común, solo intenta
+- conectarse a alexa
+- cr
+- servicio personalizado
+- te rompí
+- cena
+- ¿Crees en Dios?
+- ¿tienes un numero de telefono?
+- ¿tienes tu foto?
+- me conoces
+- ¿Mientes queso?
+- te gusta el fútbol
+- te gustan las peliculas
+- ¿Vendes robots aspiradores?
+- ¿quieres casarte conmigo?
+- documentos
+- médico
+- todo
+- ejemplo de un chatbot
+- genocidio
+- consígueme un compañero de club
+- dame una amiga
+- Dame comida
+- regresa
+- google?
+- genial, me gustaría comprar una casa
+- espera déjame encontrarlo
+- oye, mamá, déjalas susurrar en tu oído
+- oye, te contacté hace un par de días pero no obtuve respuesta
+- cómo
+- ¿Qué tal Nueva York?
+- como son los niños
+- ¿cómo puedo conseguirlos?
+- ¿cómo puedo probar esto?
+- ¿por qué dices ok?
+- como aprendiste
+- que bueno es Rasa
+- cómo se compara con alexa
+- ¿Cuánto tiempo llevas conectado?
+- ¿Cuánto tiempo se lanzará la próxima versión?
+- cuantas líneas de códigos
+- ¿Cuánto es 10 + 89?
+- cuanto es 10 + 89
+- como conseguir rasa studio
+- ¿Cómo ir a Nueva York?
+- Estoy hambriento
+- tengo hambre, ¿qué debo hacer?
+- no soy un desarrollador pero necesito esto para negocios
+- no puedo atender _su_ solicitud
+- no me importa como estas
+- Espero que estes mejor
+- Necesito ayuda de inmediato para implementar el mejor bot
+- estoy buscando trabajo
+- ya te dije
+- quiero fiesta
+- quiero un helado que no gotee
+- quiero cafe
+- quiero comida
+- quiero una buena flycam
+- ¡Quiero más de ti en mi vida!
+- Quiero pizza
+- ¡¡Quiero pizza!!
+- quiero reservar un hotel
+- quiero comprar un roomba para mi nieto
+- quiero comer
+- quiero encontrar nuevos amigos
+- quiero averiguar qué puedes construir con rasa
+- Quiero volar
+- quiero almorzar
+- quiero saber la situación actual en Pakistán
+- Quiero pedir
+- envíame los pasos por correo
+- ¿Mascota significa?
+- más
+- montaña
+- mi nombre k
+- no, espera, vuelve. Quiero un helado goteando pero un cono que lo atrape para que puedas beber el helado más tarde.
+- ofreceme el almuerzo
+- ¡Dios mío, otra vez no!
+- oh, espera, te di la dirección de correo electrónico de mi trabajo, ¿puedo cambiarla?
+- ok uno entonces
+- ¿En qué sistema basado en nlp está construyendo?
+- ¿sólo eso?
+- buen orden
+- ordenar pizza
+- personal o laboral?
+- Pizza
+- por favor ayuda con mi helado, está goteando
+- por favor hjave lunchj
+- Por favor, date prisa, tengo un plazo de dos semanas para entregar el bot. Es para una empresa muy grande.
+- por favor toca música
+- temas rasa
+- ¿De Verdad? eres tan susceptible?
+- actualizar
+- región con no. de registros
+- recuerda mi nombre
+- búsqueda en wikipedia
+- mierda
+- enséñame una foto de un pollo
+- bot tonto
+- Cantame una canción
+- Entonces, ¿estoy ayudando ahora mismo a entrenarte?
+- algo más
+- alguien llame a la policía creo que el bot murió
+- lo siento, no puedo reformular
+- sudo me hace un sándwich
+- Cuéntame sobre ti
+- cuéntame más sobre la siguiente mejor acción
+- eso no suena a broma
+- ¡ese enlace no funciona!
+- el que es mejor que tu
+- apaga mi estufa
+- umm
+- espera un poco, sigo leyendo
+- ¿Qué pasa con el clima?
+- ¿Qué son los asistentes de IA contextuales y en qué se diferencian de los chatbots?
+- ¿Qué estas haciendo ahora?
+- ¿Cuáles son sus usos para las universidades?
+- ¿Qué comiste en el almuerzo?
+- ¿Qué piensas oyu de siri?
+- ¿Qué opinas de Siri?
+- ¿Qué opinas de [Stanley Ramirez] (nombre)?
+- que piensas de alexa
+- que siente tu alma mi amigo
+- que haciendo
+- ¿Qué más?
+- qué películas te gustan
+- ¿Qué hago después de cd starter-pack-rasa-stack?
+- ¿Qué es un discurso?
+- que es una mascota
+- que es adlingo
+- ¿Cuál es la diferencia entre bot y mascota?
+- ¿Qué es la evolución?
+- que es google rcs
+- que es el aprendizaje automático
+- ¿Qué es bueno?
+- cual es la capital de delhi
+- cual es la capital de india
+- ¿Cuál es el precio actual de la gasolina?
+- Cuál es el día ?
+- ¿Cuál es el caso de uso real donde podemos usar este?
+- ¿cual es tu dirección?
+- cual es tu propósito
+- ¿Qué significa lnu?
+- ¿Cuáles son las últimas noticias?
+- ¿lo que comiste hoy?
+- lo que es 5 + 5
+- ¿Qué es un boletín?
+- que es gingerale
+- ¿Qué está haciendo tu esposa este fin de semana?
+- ¿qué?
+- que es eso
+- cual es el signo
+- ¿Cuándo viene el próximo tren?
+- ¿Dónde obtengo los archivos de instalación para mac?
+- ¿Dónde está Oslo?
+- donde esta mexico?
+- ¿donde es la fiesta?
+- ¿de qué ciudad estás hablando?
+- qué correo electrónico
+- ¿A qué correo electrónico debo enviar?
+- qué archivo se crea primero mientras se desarrolla el bot de chat
+- ¿Cuál es el asincronismo LNU?
+- qué tipo
+- ¿quiénes son los ingenieros de rasa?
+- ¿Quienes son?
+- quién es [Sharon Zeches] (nombre)
+- ¿Quién es el director general de samsung bangalore?
+- ¿quién es el presidente de la india?
+- ¿Quién es tu robot favorito?
+- quien dejo salir al perro
+- quien fue hitler
+- ¿Quién responderá a mi correo electrónico?
+- ¿Quién es Bill Gates?
+- ¿Qué piensas de gdpr?
+- ¿Por qué necesitas eso?
+- ¿Por qué se llama rasa?
+- me matarás
+- ¿Me matarás?
+- el invierno ya se va
+- ¿Con que me recomiendas?
+- quieres agua
+- ya tienes eso
+- puedes aprender a hacer un café
+- ¿Tiene hijos?
+- tienes vacante de trabajo
+- te encierras cariño
+- deberías aprender a contar
+- lo sabrás por la única rosa roja que lleva entre sus dientes
+- eres una mujer
+- Estoy aprendiendo Python
+- LLAMA A LA POLICÍA
+- tertyryutyi
+- wsdrcftvgybhnj
+- ¿Por qué el cielo es azul?
+- ¿Qué clase de pájaro es usted?
+- contextua
+- contextual
+- háblame de voulette
+- voulette voulette
+- ¿Tienes una demostración?
+- Coches
+- por favor voulette
+- Pregunta fuera de alcance.
+- necesito dinero
+- ¡No, necesito efectivo, dinero! Lo tienes ?
+- los Beatles
+- hola quiero ir palghar
+- quiero ir palghar
+- tu nombre de país
+- tu chica
+- gsaf
+- experto en rasa
+- quiero jugar a la pelota
+- vuelo ponerse al día
+- Cómo te gusta tu café
+- ¿Puedes obtener análisis sobre con quién estoy chateando cuando uso Rasa?
+- coronavirus
+- ¿has oído hablar de corona?
+- donde escribo comando
+- dónde escribir comandos
+- Besame
+- tienes que
+- ¿Qué tipo de bot?
+- sfasd
+- asdkjasdhjkasd
+- j bhbhj
+- eshdtjfjfyk
+- drhdtjfjfyj
+- reiniciar sudo
+- asdfgasd
+- asdfgasdas

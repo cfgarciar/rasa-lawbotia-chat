@@ -15,3 +15,5 @@ Coreano
 Vietnamita
 Farsi
 Polaco
+Chino
+Holandés

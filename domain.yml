@@ -9,10 +9,11 @@ intents:
 - out_of_scope
 - feedback
 - pregunta_porque_lawbotia
+- pregunta_contactar_ventas
 - pregunta_como_empezar
-- contactar_ventas
-- entrar_datos
 - solicitar_humano
+- entrar_datos:
+    use_entities: []
 - afirmar
 - negar
 - saludar
@@ -22,11 +23,16 @@ intents:
 - reaccion_positiva
 - reaccion_negativa
 - sin_ayuda
+- siguiente_paso
 
 entities:
 - producto
 - nombre
+- apellido
 - email
+- competencia
+- idioma
+- funcion_trabajo
 
 slots:
   feedback_value:
@@ -44,6 +50,12 @@ slots:
     type: unfeaturized
   person_name:
     type: unfeaturized
+  producto:
+    type: categorical
+    values:
+    - consulta juridica
+    - documentos jurídicos
+    - asistente virtual
 
 responses:
   utter_preguntar_feedback:

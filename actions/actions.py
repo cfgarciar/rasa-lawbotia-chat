@@ -18,6 +18,8 @@ from rasa_sdk.events import (
     FollowupAction,
 )
 
+from actions.api.gdrive_service import GDriveService
+
 
 class ActionGreetUser(Action):
     """Greets the user with/without privacy policy"""
@@ -32,7 +34,7 @@ class ActionGreetUser(Action):
         name_entity = next(tracker.get_latest_entity_values("name"), None)
 
         if intent == "saludar" or (intent == "entrar_datos" and name_entity):
-            if shown_privacy and name_entity and name_entity.lower() != "sara":
+            if shown_privacy and name_entity and name_entity.lower() != "angel":
                 dispatcher.utter_message(
                     template="utter_saludo_nombre", name=name_entity
                 )
@@ -116,20 +118,15 @@ class SalesForm(FormAction):
         ]
 
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
-        """A dictionary to map required slots to
-            - an extracted entity
-            - intent: value pairs
-            - a whole message
-            or a list of them, where a first match will be picked"""
 
         return {
             "person_name": [
                 self.from_entity(entity="nombre"),
-                self.from_text(intent="entrar_datos"),
+                self.from_text(intent="entrar_datos")
             ],
             "business_email": [
                 self.from_entity(entity="email"),
-                self.from_text(intent="entrar_datos"),
+                self.from_text(intent="entrar_datos")
             ]
         }
 
@@ -139,8 +136,6 @@ class SalesForm(FormAction):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[EventType]:
-        """Once we have all the information, attempt to add it to the
-        Google Drive database"""
 
         import datetime
 
