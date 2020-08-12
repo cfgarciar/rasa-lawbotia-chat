@@ -45,7 +45,7 @@
 * faq
     - respond_faq
     - action_set_faq_slot
-* contactar_ventas
+* pregunta_contactar_ventas
     - utter_mas_informacion
 
 ## FAQ - mas sobre lawbotia
@@ -83,15 +83,32 @@
 * explicar
     - action_explain_faq
 
-## FAQ - solo ventas
+## Usuario Viejo + No interaso
 * saludar
     - action_greet_user
+* pregunta_como_empezar
+    - utter_empezar
+    - utter_primer_servicio
 * faq
     - respond_faq
     - action_set_faq_slot
-* contactar_ventas
-    - utter_mas_informacion
-    - sales_form
-    - form{"name": "sales_form"}
-    - form{"name": null}
-    - utter_preguntar_feedback
+    - utter_primer_servicio
+* negar
+    - utter_preguntar_cual_servicio:
+* negar
+    - utter_thumbsup
+
+## Usuario Viejo + No interaso
+* saludar
+    - action_greet_user
+* pregunta_como_empezar
+    - utter_empezar
+    - utter_primer_servicio
+* negar
+    - utter_preguntar_cual_servicio:
+* faq
+    - respond_faq
+    - action_set_faq_slot
+    - utter_preguntar_cual_servicio:
+* negar
+    - utter_thumbsup

@@ -327,7 +327,7 @@
 - Pizza
 - por favor ayuda con mi helado, está goteando
 - por favor hjave lunchj
-- Por favor, date prisa, tengo un plazo de dos semanas para entregar el bot. Es para una empresa muy grande.
+- Por favor, date prisa, tengo un plazo de dos semanas para entregar el bot. 
 - por favor toca música
 - temas rasa
 - ¿De Verdad? eres tan susceptible?

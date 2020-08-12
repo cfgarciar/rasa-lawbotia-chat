@@ -421,7 +421,7 @@
 - ¿Que idiomas hablas?
 - ¿Eres bilingue?
 - ¿eres multilingüe?
-- ¿Puedes hablar [español](idioma)?
+- ¿Puedes hablar [coreano](idioma)?
 - ¿Puedes hablar en [italiano](idioma)?
 - sabes [chino](idioma)
 - ¿hablas [holandés](idioma)?

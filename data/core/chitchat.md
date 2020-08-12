@@ -33,5 +33,5 @@
     - action_greet_user
 * chitchat
     - respond_chitchat
-* contactar_ventas
+* pregunta_contactar_ventas
     - utter_mas_informacion

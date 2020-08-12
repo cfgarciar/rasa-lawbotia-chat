@@ -413,7 +413,7 @@
 - adios
 - adios?
 - adiós
-- adiós .
+- adiós
 - adiós: P
 - adiós bot
 - adiós
@@ -700,7 +700,7 @@
 - llévame al siguiente paso
 - Cuál es el próximo paso ?
 
-## synobym:si
+## synonym:si
 - SI
 - sI
 - sip

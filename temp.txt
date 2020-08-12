@@ -1,0 +1,12 @@
+## FAQ - solo ventas
+* saludar
+    - action_greet_user
+* faq
+    - respond_faq
+    - action_set_faq_slot
+* pregunta_contactar_ventas
+    - utter_mas_informacion
+    - sales_form
+    - form{"name": "sales_form"}
+    - form{"name": null}
+    - utter_preguntar_feedback

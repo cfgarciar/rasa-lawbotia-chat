@@ -40,7 +40,7 @@
 - ¿Por qué elegir lawbot.ia?
 
 ## intent:pregunta_contactar_ventas
-- Pero quería una llamada de ventas.
+- Pero quería una llamada de ventas
 - ¿Puedo tener una llamada mañana a las 3 pm?
 - ¿Puedo tener una llamada?
 - ¿Cómo puedo contactar con el equipo?
@@ -73,7 +73,7 @@
 - Programe una llamada de ventas
 - Ventas
 - una llamada
-- una llamada de ventas con [Rufus Gardner] (nombre) estaría bien
+- una llamada de ventas con [andres](nombre) [perez](apellido) estaría bien
 - programar una llamada
 - programar una llamada de venta
 - programar una venta
@@ -203,7 +203,7 @@
 - dame un humano ahora
 - traspaso humano
 - no quiero hablar con un bot
-- quiero hablar con un [gerente] (funcion_trabajo)
+- quiero hablar con un [gerente](funcion_trabajo)
 - quiero hablar con una persona real
 - quiero hablar con el servicio al cliente
 - quiero hablar con un humano
@@ -309,10 +309,10 @@
 - yo soy [patricia](nombre) [romero](apellido)
 - yo soy [andrea](nombre) [diaz](apellido)
 - yo soy [juan](nombre) [perez](apellido)
-- Mi nombre es [lina](nombre)
-- Mi nombre es [jenny](nombre)
-- Mi nombre es [joanna](nombre)
-- Mi nombre es [Hernando](nombre)
+- Mi nombre es [lina](nombre) [garcia](apellido)
+- Mi nombre es [jenny](nombre) [romero](apellido)
+- Mi nombre es [joanna](nombre) [gomez](apellido)
+- Mi nombre es [Hernando](nombre) [sanchez](apellido)
 - Lo escribí en [chino](idioma)
 - Lo escribí en [holandés](idioma)
 - Lo escribí en [inglés](idioma)
@@ -561,3 +561,9 @@
 
 ## lookup:idiomas.txt
   data/nlu/lookups/idiomas.txt
+
+## lookup:nombres.txt
+  data/nlu/lookups/nombres.txt
+
+## lookup:apellidos.txt
+  data/nlu/lookups/apellidos.txt

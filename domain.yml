@@ -173,6 +173,20 @@ responses:
   utter_ask_business_email:
   - text: cual es su correo
 
+  utter_empezar:
+  - text: Para determinar cómo puedo ayudarlo mejor, le haré algunas preguntas
+
+  utter_primer_servicio:
+  - text: primer sevicio con lawbotia
+
+  utter_preguntar_cual_servicio:
+  - text: Entendido, ¿Sobre qué producto te gustaría saber más?
+
+  utter_thumbsup:
+  - text: 👍
+  - text: Listo!
+  - text: Entendido!
+
 
 actions:
 - respond_faq
