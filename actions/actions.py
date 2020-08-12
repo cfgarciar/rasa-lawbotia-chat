@@ -99,3 +99,66 @@ class ActionPause(Action):
 
     def run(self, dispatcher, tracker, domain) -> List[EventType]:
         return [ConversationPaused()]
+
+
+
+class SalesForm(FormAction):
+    """Collects sales information and adds it to the spreadsheet"""
+
+    def name(self) -> Text:
+        return "sales_form"
+
+    @staticmethod
+    def required_slots(tracker) -> List[Text]:
+        return [
+            "person_name",
+            "business_email"
+        ]
+
+    def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
+        """A dictionary to map required slots to
+            - an extracted entity
+            - intent: value pairs
+            - a whole message
+            or a list of them, where a first match will be picked"""
+
+        return {
+            "person_name": [
+                self.from_entity(entity="nombre"),
+                self.from_text(intent="entrar_datos"),
+            ],
+            "business_email": [
+                self.from_entity(entity="email"),
+                self.from_text(intent="entrar_datos"),
+            ]
+        }
+
+    def submit(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[EventType]:
+        """Once we have all the information, attempt to add it to the
+        Google Drive database"""
+
+        import datetime
+
+        email = tracker.get_slot("business_email")
+        person_name = tracker.get_slot("person_name")
+        date = datetime.datetime.now().strftime("%d/%m/%Y")
+
+        sales_info = [date, person_name, email]
+
+        try:
+            gdrive = GDriveService()
+            gdrive.store_data(sales_info)
+            dispatcher.utter_message(template="utter_confirm_salesrequest")
+            return []
+        except Exception as e:
+            logger.error(
+                "Failed to write data to gdocs. Error: {}" "".format(e.message),
+                exc_info=True,
+            )
+            dispatcher.utter_message(template="utter_salesrequest_failed")
+            return []

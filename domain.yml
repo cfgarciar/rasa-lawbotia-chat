@@ -3,7 +3,8 @@ session_config:
   carry_over_slots_to_new_session: true
 
 intents:
-- faq
+- faq:
+    use_entities: ["producto"]
 - chitchat
 - out_of_scope
 - feedback
@@ -22,6 +23,11 @@ intents:
 - reaccion_negativa
 - sin_ayuda
 
+entities:
+- producto
+- nombre
+- email
+
 slots:
   feedback_value:
     type: categorical
@@ -34,6 +40,10 @@ slots:
     type: unfeaturized
   name:
     type: text
+  business_email:
+    type: unfeaturized
+  person_name:
+    type: unfeaturized
 
 responses:
   utter_preguntar_feedback:
@@ -139,6 +149,19 @@ responses:
   utter_faq_servicios_mas:
   - text: Hay mas información en [nuestra pagina](https://lawbotia.com/servicios/)
 
+  utter_confirm_salesreques:
+  - text: venta confirmada
+
+  utter_salesrequest_failed:
+  - text: fallo
+
+  utter_ask_person_name:
+  - text: cual es su nombre
+
+  utter_ask_business_email:
+  - text: cual es su correo
+
+
 actions:
 - respond_faq
 - respond_chitchat
@@ -146,3 +169,6 @@ actions:
 - action_greet_user
 - action_explain_faq
 - action_set_faq_slot
+
+forms:
+- sales_form

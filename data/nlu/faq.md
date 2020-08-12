@@ -5,6 +5,9 @@
 - que puedo hacer en lawbotia
 - Quiero información sobre lawbotia
 - puedes explicarme que es lawbotia
+- que tipo de [consultas juridicas](producto) se pueden hacer
+- cuales son los [documentos juridicos](producto) que realizan
+- que se le puede preguntar al [asistente virtual](producto)
 
 ## intent:faq/canales
 - cómo puedo usar el chatbot de lawbotia

@@ -33,4 +33,5 @@ policies:
     - 32
     - 64
   - name: MemoizationPolicy
+  - name: FormPolicy
   - name: MappingPolicy

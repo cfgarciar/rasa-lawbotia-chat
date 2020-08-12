@@ -3,3 +3,17 @@ entities:
 - producto
 - lugares
 - feedback_value
+
+
+ def validate_business_email(
+        self, value, dispatcher, tracker, domain
+    ) -> Dict[Text, Any]:
+        """Check to see if an email entity was actually picked up by duckling."""
+
+        if any(tracker.get_latest_entity_values("email")):
+            # entity was picked up, validate slot
+            return {"business_email": value}
+        else:
+            # no entity was picked up, we want to ask again
+            dispatcher.utter_message(template="utter_no_email")
+            return {"business_email": None}
