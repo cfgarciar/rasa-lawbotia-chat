@@ -1,15 +1,9 @@
 ## intent:chitchat/pregunta_creador
-- Quién te creo?
 - Quen te creo?
 - Quién es tu autor?
-- Quien es tu autor
 - como te crearon?
 - Cómo te hicieron?
-- Quiero saber como te crearon?
-- Dime cómo te hicieron
-- Cómo te hicieron?
 - Como te construyeron?
-- Cómo te formaron?
 
 ## intent:chitchat/pregunta_como_crearon
 - ¿Por qué medios fuiste hecho?
@@ -20,6 +14,7 @@
 - ¿Estas bien?
 - ¿Te sientes bien?
 - ¿Tienes un gran día?
+- Como estas?
 
 ## intent:chitchat/pregunta_edad
 - ¿Cuánto tiempo has estado vivo?
@@ -31,25 +26,18 @@
 
 ## intent:chitchat/pregunta_es_robot
 - Eres un robot?
-- eres un robot
-- Eres un  bot?
 - eres inteligencia artificial?
-- eres inteligencia artificial
-- eres artificial
 - eres un chatbot?
-- eres un chatbot
+- eres una computadora
 - eres una maquina?
 
 ## intent:chitchat/pregunta_es_humano
 - eres una persona?
-- eres una persona
 - eres humano
 - eres un humano?
 - eres bot o humano?
 - eres una maquina o una persona?
 - Eres una persona real?
-- eres una persona real
-- eres real?
 - eres real?
 
 ## intent:chitchat/pregunta_otro_idioma
@@ -57,9 +45,8 @@
 - ¿Puedes comunicarte en otros idiomas?
 - ¿Puedes hablar más de un idioma?
 - ¿Sabes algun otro idioma?
-- ¿Conoces otros idiomas?
 - ¿Hablas alguna otra lengua?
-- ¿En cuántos idiomas diferentes hablas con fluidez?
+
 
 ## intent:chitchat/pregunta_restaurante
 - ¿Hay buenos restaurantes cerca?
@@ -85,43 +72,19 @@
 ## intent:chitchat/pregunta_mi_nombre
 - ¿Me puedes decir mi nombre?
 - ¿Puedes decirme cómo me llamo?
-- ¿Tengo un nombre?
 - ¿Tengo un nombre? ¿Qué es?
 - ¿Sabes mi nombre?
 - ¿Sabes cómo me llamo?
 
-
-## intent:chitchat/pregunta_que_es_lawbotia
-- que es Lawbotia?
-- que es lowbotia
-- me puede informar sobre Lawbotia
-- como funciona Lawbotia?
-- quiero saber sobre lawbotia
-- que puede hacer lawbotia
-- Podrias contarme mas sobre lawbotia
-- Dame más información sobre lawbotia
-- como funciona lawbotia
-- Quiero aprender que hace lawbotia
-- Quiero saber qué es lawbotia
-- Me gustaría saber sobre lawbotia
-- Me gustaría saber más sobre tus servicios
-- puedes informarme lawbotia
-- lawbotia?
-- lawbotia es?
 
 ## intent:chitchat/pregunta_que_es_posible
 - Qué haces
 - Qué puedes hacer?
 - Qué puedo preguntarte?
 - Que puedo hacer?
-- Qué puedes demostrar?
-- Qué puedes hacer
 - ¿Qué puedes hacer por mi?
-- ¿Qué puedes hacer?
 - ¿Que me puedes decir?
-- ¿Hay más opciones?
 - ¿Puedo preguntarte algo más?
-- ¿Puedes hacer otra cosa?
 
 ## intent:chitchat/pregunta_donde_eres
 - ¿Eres de por aquí?
@@ -168,9 +131,7 @@
 
 ## intent:chitchat/contar_chiste
 - ¿Puedes contar una broma?
-- ¿Puedes contarme una broma?
 - Crea una broma que creas que me parecerá divertida.
 - ¿Podrías compartir una broma conmigo?
 - ¿Podrías contarme una broma?
-- ¿Tienes alguna broma?
 - ¿Sabes alguna broma?

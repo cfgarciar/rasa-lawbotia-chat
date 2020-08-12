@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,21 +10,26 @@
 <body>
     <h1>hello</h1>
     <div id="webchat"></div>
+    <div id="webchat"></div>
     <script src="https://cdn.jsdelivr.net/npm/rasa-webchat@0.11.5/lib/index.min.js"></script>
     <script>
         WebChat.default.init({
             selector: "#webchat",
             initPayload: "/saludar",
             customData: { "language": "es" },
-            socketUrl: "https://lawbotia.net",
+            socketUrl: "http://localhost:5005",
             socketPath: "/socket.io/",
-            title: "Lawbotia",
+            title: "Lawbot.ia",
             subtitle: "Soluciones Jurídicas Inteligentes",
-            profileAvatar: "https://rasa.com/assets/img/demo/rasa_avatar.png",
+            profileAvatar: "https://lawbotia.com/avatar_1/",
             params: { "storage": "session" },
-            inputTextFieldHint: "Escribe tu mensaje..."
-        })
+            inputTextFieldHint: "Escribe tu mensaje...",
+            interval: 1000
+        });
     </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto&display=swap');
+    </style>
 </body>
 
 </html>

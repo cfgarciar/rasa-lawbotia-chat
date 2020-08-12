@@ -115,3 +115,6 @@
 
 ## lookup:productos.txt
   data/nlu/lookups/productos.txt
+
+## lookup:idiomas.txt
+  data/nlu/lookups/idiomas.txt

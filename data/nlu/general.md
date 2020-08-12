@@ -142,7 +142,6 @@
 ## intent:sin_ayuda
 - Creo que no puedes ayudarme
 - y te llamas compañía bot? pff
-- ¿Tienes algo?
 - salida
 - salir ahora
 - hm no creo que puedas hacer lo que quiero

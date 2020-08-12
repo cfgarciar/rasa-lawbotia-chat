@@ -2,11 +2,11 @@
 * chitchat
     - respond_chitchat
 
-## chitchat + negar
+## saludo + chitchat
+* saludar
+    - utter_saludo
 * chitchat
     - respond_chitchat
-* negar
-    - utter_sin_ayuda
 
 ## mas chitchat
 * saludar
@@ -16,11 +16,17 @@
 * chitchat
     - respond_chitchat
 
-## saludo + chitchat
-* saludar
-    - utter_saludo
+## chitchat + afirmar
 * chitchat
     - respond_chitchat
+* afirmar
+    - utter_entendido
+
+## chitchat + negar
+* chitchat
+    - respond_chitchat
+* negar
+    - utter_sin_ayuda
 
 ## solo ventas
 * saludar
