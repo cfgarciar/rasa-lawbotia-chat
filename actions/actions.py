@@ -53,7 +53,6 @@ class ActionGreetUser(Action):
         return []
 
 
-
 class ActionExplainFaqs(Action):
     """Returns the chitchat utterance dependent on the intent"""
 
@@ -69,7 +68,6 @@ class ActionExplainFaqs(Action):
             dispatcher.utter_message(template="utter_no_mas_info")
 
         return []
-
 
 
 class ActionSetFaqSlot(Action):
@@ -92,7 +90,6 @@ class ActionSetFaqSlot(Action):
         return [SlotSet("faq", topic)]
 
 
-
 class ActionPause(Action):
     """Pause the conversation"""
 
@@ -103,7 +100,6 @@ class ActionPause(Action):
         return [ConversationPaused()]
 
 
-
 class SalesForm(FormAction):
     """Collects sales information and adds it to the spreadsheet"""
 
@@ -112,22 +108,19 @@ class SalesForm(FormAction):
 
     @staticmethod
     def required_slots(tracker) -> List[Text]:
-        return [
-            "person_name",
-            "business_email"
-        ]
+        return ["person_name", "business_email"]
 
     def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
 
         return {
             "person_name": [
                 self.from_entity(entity="nombre"),
-                self.from_text(intent="entrar_datos")
+                self.from_text(intent="entrar_datos"),
             ],
             "business_email": [
                 self.from_entity(entity="email"),
-                self.from_text(intent="entrar_datos")
-            ]
+                self.from_text(intent="entrar_datos"),
+            ],
         }
 
     def submit(
@@ -157,3 +150,19 @@ class SalesForm(FormAction):
             )
             dispatcher.utter_message(template="utter_salesrequest_failed")
             return []
+
+
+class ActionStoreUnknownConsultaJuridica(Action):
+    """Stores unknown parts of nlu which the user requests information on
+        in slot.
+    """
+
+    def name(self) -> Text:
+        return "action_store_unknown_consulta_juridica"
+
+    def run(self, dispatcher, tracker, domain) -> List[EventType]:
+        # if we dont know the part of nlu the user wants information on,
+        # store his last message in a slot.
+        return [
+            SlotSet("unknown_consulta_juridica", tracker.latest_message.get("text"))
+        ]

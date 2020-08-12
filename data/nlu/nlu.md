@@ -503,6 +503,10 @@
 - [mensajero](funcion_trabajo)
 - [ayudante](funcion_trabajo)
 
+## intent:consultas_juridicas_info
+- no se como hacer una [consulta juridica](producto) en el chat
+- no entiendo como me van a responder mi [consulta juridica](producto)
+
 ## synonym:español
 - es
 - espanol
