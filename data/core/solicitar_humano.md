@@ -4,6 +4,6 @@
 
 ## saludar + solicitar humano
 * saludar
-    - utter_saludo
+    - action_greet_user
 * solicitar_humano
     - utter_contacto_email

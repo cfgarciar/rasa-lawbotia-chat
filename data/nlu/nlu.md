@@ -50,18 +50,6 @@
 - Quiero hablar con tus vendedores
 - Quiero hablar con tu equipo de ventas
 
-## intent:entrar_datos
-- 1000000
-- 100000
-- 1000
-- 100
-- 10
-- 10k
-- 120000
-- 1231
-- 12
-- 2 millones
-
 ## intent:solicitar_humano
 - ¿Puedo hablar con alguien que realmente pueda ayudarme?
 - ¿Puedo hablar con [Tyrone King] (nombre)?
@@ -79,6 +67,18 @@
 - ¿También hay humanos trabajando para su empresa?
 - tienes apoyo humano?
 
+## intent:entrar_datos
+- 1000000
+- 100000
+- 1000
+- 100
+- 10
+- 10k
+- 120000
+- 1231
+- 12
+- 2 millones
+
 ## synonym:español
 - es
 - espanol
@@ -92,6 +92,7 @@
 
 ## synonym:lawbotia
 - lawbot.ia
+- law bot ia
 
 ## synonym:chatbot
 - asistente virtual
@@ -110,8 +111,11 @@
 ## regex:celular
 - [0-9]{10}
 
-## lookup:lugares.txt
-  data/nlu/lookups/lugares.txt
+## lookup:municipios.txt
+  data/nlu/lookups/municipios.txt
+
+## lookup:departamentos.txt
+  data/nlu/lookups/departamentos.txt
 
 ## lookup:productos.txt
   data/nlu/lookups/productos.txt

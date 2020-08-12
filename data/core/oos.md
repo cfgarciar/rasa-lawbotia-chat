@@ -5,19 +5,19 @@
 
 ## entrar datos fuera del flujo
 * saludar
-    - utter_saludo
+    - action_greet_user
 * entrar_datos
     - utter_sin_estar_seguro
     - utter_posibilidades
 
 ## afirmar fuera del flujo
 * saludar
-    - utter_saludo
+    - action_greet_user
 * afirmar
     - utter_entendido
 
 ## saludar fuera del flujo
 * saludar
-    - utter_saludo
+    - action_greet_user
 * saludar OR entrar_datos{"nombre": "alejandra"}
-    - utter_saludo
+    - action_greet_user

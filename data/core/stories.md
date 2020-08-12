@@ -1,6 +1,6 @@
 ## saludo
 * saludar
-    - utter_saludo
+    - action_greet_user
 
 ## gracias
 * agradecer

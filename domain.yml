@@ -28,6 +28,12 @@ slots:
     values:
     - positive
     - negative
+  faq:
+    type: unfeaturized
+  shown_privacy:
+    type: unfeaturized
+  name:
+    type: text
 
 responses:
   utter_preguntar_feedback:
@@ -39,7 +45,19 @@ responses:
     text: ¿Como va esta conversacion hasta el momento?
     
   utter_saludo:
+  - text: Hola, como va todo
+
+  utter_saludo_nombre:
+  - text: Hola {name}, como ha estado
+
+  utter_saludo_no_nombre:
   - text: Hola, como ha estado
+
+  utter_preguntar_meta:
+  - text: En que podemos ayudarte
+
+  utter_inform_privacypolicy:
+  - text: Al conversar conmigo, aceptas nuestra [política de privacidad] (https://lawbotia.com/privacidad/)
 
   utter_sin_ayuda:
   - text: "Por ahora es todo lo que puedo hacer. Si tiene alguna sugerencia \
@@ -103,7 +121,28 @@ responses:
   \ [formulario de contacto](https://lawbotia.com/contacto/). LLenalo y te enviaremos \
   \ toda la informacion que requieras."
 
+  utter_no_mas_info:
+  - text: Lo siento, esa es toda la información que tengo sobre ese tema 😕
+
+  utter_faq_lawbotia_mas:
+  - text: Hay mas información en [nuestra pagina](https://lawbotia.com/)
+  
+  utter_faq_canales_mas:
+  - text: Hay mas información en [nuestra pagina](https://lawbotia.com/contacto/)
+
+  utter_faq_requisitos_mas:
+  - text: Hay mas información en [nuestra pagina](https://lawbotia.com/servicios/)
+
+  utter_faq_costos_mas:
+  - text: Hay mas información en [nuestra pagina](https://lawbotia.com/servicios/)
+
+  utter_faq_servicios_mas:
+  - text: Hay mas información en [nuestra pagina](https://lawbotia.com/servicios/)
+
 actions:
 - respond_faq
 - respond_chitchat
 - respond_out_of_scope
+- action_greet_user
+- action_explain_faq
+- action_set_faq_slot

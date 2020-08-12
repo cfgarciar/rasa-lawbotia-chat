@@ -4,13 +4,13 @@
 
 ## saludo + chitchat
 * saludar
-    - utter_saludo
+    - action_greet_user
 * chitchat
     - respond_chitchat
 
 ## mas chitchat
 * saludar
-    - utter_saludo
+    - action_greet_user
 * chitchat
     - respond_chitchat
 * chitchat
@@ -30,7 +30,7 @@
 
 ## solo ventas
 * saludar
-    - utter_saludo
+    - action_greet_user
 * chitchat
     - respond_chitchat
 * contactar_ventas
