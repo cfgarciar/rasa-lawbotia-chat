@@ -67,19 +67,24 @@ responses:
           title: 👍
         - payload: /feedback{"feedback_value":"negativo"}
           title: 👎
-      text: ¿Como va esta conversacion hasta el momento?
+      text: ¿Cómo va esta conversación hasta el momento?
 
   utter_saludo:
-    - text: Hola, como va todo
+    - text: Bienvenido, en qué le puedemos colaborar?
+    - text: Bienvenido, en qué le puedemos servir?
+    - text: Buen día!, en qué le podemos ayudar?
 
   utter_saludo_nombre:
-    - text: Hola {name}, como ha estado
+    - text: Hola {name}, cómo se encuentra el día de hoy?
+    - text: Buen día {name}, cómo esta?
 
   utter_saludo_no_nombre:
-    - text: Hola, como ha estado
+    - text: Hola, como ha estado?
 
   utter_preguntar_meta:
-    - text: En que podemos ayudarte
+    - text: En qué podemos ayudarte?
+    - text: En qué le podemos colaborar?
+    - text: Cuéntenos, en qué le podemos servir? 
 
   utter_inform_privacypolicy:
     - text: Al conversar conmigo, aceptas nuestra [política de privacidad] (https://lawbotia.com/privacidad/)
@@ -87,9 +92,13 @@ responses:
   utter_sin_ayuda:
     - text: "Por ahora es todo lo que puedo hacer. Si tiene alguna sugerencia \
         \ por favor dejenosla saber!"
+    - text: "Por ahora es todo lo que puedo hacer, sin embargo cada día mejoro para \
+    \ prestar un mejor servicio"
+    - text: Lo siento, no entiendo tu consulta
 
   utter_mas_informacion:
-    - text: Seguro, vamos a programar una llamada de nuestro personal de ventas
+    - text: Seguro, vamos a programar una llamada de nuestro asesor comercial
+    - text: Perfecto, vamos a programar una cita con nuestro asesor comercial
 
   utter_posibilidades:
     - text:
@@ -99,29 +108,41 @@ responses:
 
   utter_sin_estar_seguro:
     - text: Hmmmm, no estoy seguro lo que quiere decir
+    - text: No entiendo muy bien lo que me quiere decir
+    - text: No es muy claro para mi lo que me quiere decir
+    - text: Lo siento no entiendo tu consulta
 
   utter_entendido:
-    - text: 👍
+    - text: Perfecto!
     - text: Entendido!
 
   utter_adios:
-    - text: Adios
+    - text: Hasta pronto!
+    - test: Hasta una próxima ocasión
 
   utter_de_nada:
     - text: De nada!
+    - text: Con gusto!
+    - text: Es placer!
 
   utter_algo_mas:
-    - text: Necesita algo más
-    - text: Le puedo colaborar en algo más
+    - text: Le puedo ayudar algo más?
+    - text: Le puedo colaborar en algo más?
+    - text: Necesita que le colaboremos en algo más?
 
   utter_que_mas:
-    - text: Listo, ¿En que mas lo puedo ayudar?
+    - text: Perfecto!, ¿En que más lo puedo ayudar?
+    - text: Necesita que le colaboremos en algo más?
 
   utter_reaccion_positiva:
     - text: Me alegra
+    - text: Muy bien!
+    - text: excelente
+    - text: que bueno!
 
   utter_reaccion_negativa:
     - text: Que mal
+    - text: Lo siento, esto puede mejorar
 
   utter_grandioso:
     - text: Grandioso! 👍
@@ -144,27 +165,29 @@ responses:
     - text: ¿Quiere saber mas sobre lawbot.ia?
 
   utter_mas_lawbotia:
-    - text: "Puedes obtener mas información llenando nuestro \
-        \ [formulario de contacto](https://lawbotia.com/contacto/). LLenalo y te enviaremos \
-        \ toda la informacion que requieras."
+    - text: "Puede obtener mas información diligenciando nuestro \
+        \ [formulario de contacto](https://lawbotia.com/contacto/). Diligéncialo, envíalo y le estaremos \
+        \ enviando toda la información que requiera."
 
   utter_no_mas_info:
     - text: Lo siento, esa es toda la información que tengo sobre ese tema 😕
+    - text: "Discúlpe, en este momento es toda la información que tengo, pero mejoramos cada día \
+    \ para ofrecer un mejor servicio."
 
   utter_faq_lawbotia_mas:
-    - text: Hay mas información en [nuestra pagina](https://lawbotia.com/)
+    - text: Para ver mas información la puede encontar en [nuestra pagina](https://lawbotia.com/)
 
   utter_faq_canales_mas:
-    - text: Hay mas información en [nuestra pagina](https://lawbotia.com/contacto/)
+    - text: En [nuestra pagina](https://lawbotia.com/contacto/) podrá encontrar mas información
 
   utter_faq_requisitos_mas:
-    - text: Hay mas información en [nuestra pagina](https://lawbotia.com/servicios/)
+    - text: En [nuestra pagina](https://lawbotia.com/servicios/) podrá encontrar mas información
 
   utter_faq_costos_mas:
-    - text: Hay mas información en [nuestra pagina](https://lawbotia.com/servicios/)
+    - text: En [nuestra pagina](https://lawbotia.com/servicios/) podrá encontrar mas información
 
   utter_faq_servicios_mas:
-    - text: Hay mas información en [nuestra pagina](https://lawbotia.com/servicios/)
+    - text: En [nuestra pagina](https://lawbotia.com/servicios/) podrá encontrar mas información
 
   utter_confirm_salesreques:
     - text: venta confirmada
@@ -173,27 +196,30 @@ responses:
     - text: fallo
 
   utter_ask_person_name:
-    - text: cual es su nombre
+    - text: Nos puede confirmar su su nombre?
 
   utter_ask_business_email:
-    - text: cual es su correo
+    - text: A qué correo lo podemos contactar?
 
   utter_empezar:
     - text: Para determinar cómo puedo ayudarlo mejor, le haré algunas preguntas
 
   utter_primer_servicio:
-    - text: primer sevicio con lawbotia
+    - text: Es la primera vez qeu consulta nuestros sevicio?
+    - text: Ya había utilizado nuestros servicios?
 
   utter_preguntar_cual_servicio:
-    - text: Entendido, ¿Sobre qué producto te gustaría saber más?
+    - text: Entendido, ¿Sobre qué servicio le gustaría saber más?
+    - text: Perfecto, ¿Sobre que servicio le gustaría conocer más?
 
   utter_thumbsup:
-    - text: 👍
+    - text: Perfecto!
     - text: Listo!
     - text: Entendido!
 
   utter_consulta_juridica_especifico:
-    - text: Algun tema en especifico como ....
+    - text: Algún tema en especifico como derechos de petición o alguna demanda?
+    - text: Algún tema en específico?
 
   utter_info_general_consultas:
     - text: "En la seccion de nuestros \
@@ -201,11 +227,11 @@ responses:
         puede encontar mayor informacion"
 
   utter_unknown_consulta_juridica:
-    - text: Al parecer no tenemos respuesta a este tema aun
+    - text: Al parecer no tenemos respuesta a este tema aún
 
   utter_escribir_mensaje:
     - text: "Puede enviarnos un mensaje a [info@lawbotia.com] y le \
-    \ resolveremos su duda"
+    \ resolveremos su inquietud"
 
 actions:
   - respond_faq
