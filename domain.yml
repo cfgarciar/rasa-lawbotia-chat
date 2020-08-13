@@ -247,16 +247,18 @@ responses:
     - text: Lawbotia es....
 
   utter_explicar_servicios:
-    - text: Nuestros servicios son ....
+    - text: "Nuestros servicios son:"
 
   utter_explicar_canales:
-    - text: Nuestros canales de contacto son...
+    - text: "Nuestros canales de contacto son"
 
   utter_explicar_contacto:
-    - text: Nos puede contactar en ....
+    - text: "Nos puede contactar:"
 
   utter_explicar_chatbot:
-    - text: 
+    - text:  "Un Chatbot o Asistente Virual es un programa que simula mantener \ 
+    \ una conversación con una persona al proveer respuestas automáticas a 
+    \ entradas hechas por el usuario."
 
 actions:
   - respond_faq
