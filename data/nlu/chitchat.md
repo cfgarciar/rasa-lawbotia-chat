@@ -1,77 +1,571 @@
 ## intent:chitchat/pregunta_creador
-- Quién te creo?
-- Quen te creo?
-- Quién es tu autor?
-- Quien es tu autor
-- como te crearon?
-- Cómo te hicieron?
-- Quiero saber como te crearon?
-- Dime cómo te hicieron
-- Cómo te hicieron?
-- Como te construyeron?
-- Cómo te formaron?
+- ¿Quién te construyó?
+- ¿Puedo preguntar el nombre de las personas que te diseñaron?
+- ¿Sabes quién te construyó?
+- ¿Sabes quién te hizo?
+- ¿Puedo preguntar quién te inventó?
+- Nombra a la persona que te construyó.
+- Dime el nombre de la persona que te creó.
+- Dime el nombre de la persona que te construyó.
+- Dime el nombre de tu creador.
+- Dime quién te construyó.
+- ¿Cuál es el nombre de su constructor?
+- ¿Qué persona te construyó?
+- ¿Quién te construyó?
+- ¿Quién te creó y te construyó?
+- ¿Quien te creó?
+- ¿Quién te diseñó?
+- ¿Quién te desarrolló y creó?
+- ¿Quién te desarrolló?
+- ¿Quién te fabricó?
+- ¿Quién te generó?
+- ¿Quién te construyó?
+- ¿Quién es el responsable de hacerte?
+- ¿Quién es tu constructor?
+- ¿Quién es el dueño legal de ti?
+- ¿Quién es el nombre de su constructor?
+- ¿Quién es el nombre de tu creador?
+- ¿Quién es el responsable de construirte?
+- ¿Quién es la persona que te inventó?
+- ¿Quién es la persona que te construyó?
+- ¿Quién es tu creador?
+- ¿Quién es tu programador?
+- ¿Quien te hizo?
+- ¿Quién te modeló?
+- ¿Quien es tu dueño?
+- ¿Quién te produjo?
+- ¿Quién te puso juntos?
+- ¿Quién pensó en hacerte?
+- ¿Quién fue el que te construyó?
+- ¿Quién fue el que te hizo?
+- ¿Quién fue la persona que te construyó?
+- ¿Quién fue la persona que te creó?
+- ¿Quién fue la persona que te hizo?
+- ¿Quién fue la persona que te hizo?
+- ¿Quién fue la persona que te armó?
+- ¿Quién se tomó la molestia de instalarte?
+- ¿Quién te construyó?
+- ¿Quién te creó?
+- ¿Quién te hizo?
+- ¿Quién es tu jefe?
+- ¿Quién es tu constructor?
+- y quien te construyo?
+- ¿Puedes compartir tu jefe conmigo?
+- quiero conocer a tu dueño
+- quiero saber la empresa que te diseñó
+- quiero saber la empresa que te generó
+- quiero saber la empresa que te inventó
+- quiero saber quien te inventó
+- por favor dime la empresa que te creó
+- por favor dime quien te creó
+- Dime mas sobre ti
+- cuéntame más sobre tus creadores
+- cuéntame más sobre tus fundadores
+- ¿Cuál es el nombre del ingeniero inteligente que te creó?
+- ¿de dónde te hicieron?
+- ¿Qué empresa te trajo a la existencia?
+- ¿Qué empresa te creó?
+- ¿Qué empresa te inventó?
+- quienes te crearon
+- ¿Quién es tu autor?
+- quienes son tus padres
+- quien construye yoi
+- ¿Quién te construyó?
+- quien te construyo
+- quien te construyo?
+- ¿Quién te creó?
+- Quien te creó
+- ¿Quien te creó?
+- quien desarrolló
+- quien te desarrolló
+- ¿Para quién trabajas?
+- ¿Quién tuvo la idea de construirte?
+- ¿Quién tuvo la idea de generarte?
+- ¿Quién tuvo la idea de hacerte?
+- quien te inventó
+- ¿Quien esta detrás de todo esto?
+- quien es tu autor
+- Quien es tu jefe
+- quien es tu jefe dime
+- ¿Quien es tu jefe?
+- quien es tu creador
+- ¿Quién es tu creador?
+- quién es tu papi
+- quien es su empleador?
+- quien es tu padre ?
+- quién es tu mamá
+- ¿quién es tu padre?
+- quien te hizo
+- quien te hizo?
+- quien te hizo
+- ¿quien te hizo?
+- ¿Quién es tu autor?
+- quien es constructor
+- ¿Por qué te hicieron?
+- ¿estás hecho por quién?
+- ¿trabaja para qué empresa?
+- quien es el autor de rasa
+- cual es tu nombre de madre
+- cual es el nombre del padre
+- quién es tu madre
+- quien es tu padre
 
 ## intent:chitchat/pregunta_como_crearon
-- ¿Por qué medios fuiste hecho?
-- ¿Por qué método fuiste diseñado?
+- ¿Con qué medios fuiste hecho?
+- ¿Con qué método fuiste formado?
 - ¿Puedes explicar cómo fuiste creado?
+- ¿Puedes darme una idea de cómo fuiste creado?
+- ¿Puedes decir cómo fuiste construido?
+- ¿Sabes cómo fuiste construido?
+- ¿Sabes cómo te hicieron?
+- ¿Cómo te construyeron?
+- ¿Cómo te crearon?
+- ¿Cómo te hicieron?
+- ¿Cómo llegaste a existir?
+- ¿Cómo llegaste a ser?
+- ¿Exactamente cómo fuiste ideado?
+- ¿Cómo te hicieron exactamente?
+- ¿Cómo fuiste construido?
+- ¿Cómo fuiste concebido?
+- ¿Cómo fuiste construido?
+- ¿Cómo fuiste ideado?
+- ¿Cómo te formaron?
+- ¿Cómo te convirtieron en quien eres?
+- ¿Cómo te hicieron?
+- ¿Cómo te materializaste?
+- ¿Cómo te preparaste?
+- quiero saber como te formaron
+- Me gustaría saber cómo fuiste creado
+- Me gustaría saber cómo te pusieron juntos.
+- ¿De qué manera fuiste construido?
+- ¿De qué manera fuiste construido?
+- ¿De qué manera te formaron?
+- ¿De qué manera fuiste creado?
+- ¿De qué manera te formaron?
+- ¿De qué forma fuiste hecho?
+- ¿De qué manera fuiste formado?
+- ¿De qué manera fuiste ideado?
+- Déjame saber cómo te hicieron exactamente
+- ¿Especifica cómo fuiste creado?
+- ¿Dime cómo te hicieron?
+- ¿Qué proceso se utilizó para construirte?
+- ¿Qué proceso se utilizó para crearte?
+- ¿Cuál fue el proceso para hacerte?
+- ¿Te originaste a través de qué medios?
+- ¿Cómo estás construido?
+- ¿cómo te hicieron?
+- ¿de qué manera fuiste hecho?
+- entonces, ¿cómo fuiste hecho?
+- De qué estás hecho
 
 ## intent:chitchat/pregunta_como_estas
+- Hola amigo como estas?
 - ¿Estas bien?
 - ¿Te sientes bien?
 - ¿Tienes un gran día?
+- Hola lawbotia, ¿qué estás haciendo?
+- ¡Hola lawbotia! ¿Cómo estás?
+- ¿Cómo estás?
+- ¿Cómo están las cosas?
+- Cómo estás
+- ¿Como estas Hombre?
+- ¿Cómo estás hoy?
+- ¿Cómo estás?
+- ¿Que tal tu día?
+- ¿Como estas?
+- Cómo te va
+- ¿Cómo lo llevas?
+- ¿Cómo te está tratando la vida, amigo?
+- ¿Como has estado?
+- Cómo te va
+- Estoy bien y tú
+- ¿Esta todo bien?
+- ¿Que esta pasando?
+- ¿Qué hay de nuevo?
+- Qué pasa
+- ¿Qué pasa hombre?
+- y tú
+- Estás bien
+- estás feliz
+- estas teniendo un buen dia
+- Estas bien
+- estás bien
+- ¿eh?
+- ¿Hola como estas?
+- ¿Hola, qué tal?
+- ¿Hola! Cómo estás?
+- Hola qué haces
+- hola lawbotia, como estas?
+- cómo ?
+- cómo van las cosas
+- ¿cómo van las cosas contigo?
+- Cómo estás
+- ¿Cómo estás?
+- como estas xou
+- cómo estás
+- cómo estás ?
+- como estas
+- Cómo estás esta mañana
+- como estas hoy mi dulce amiga
+- ¿Cómo estás hoy?
+- ¿como estas?
+- como te sientes
+- cómo estás hoy
+- cómo estás'
+- ¿cómo estás?
+- ¿¿¿¿cómo estás????
+- ¿Cómo estás?
+- ¿Cómo lo haces?
+- como has estado
+- Cómo va
+- Cómo va su día
+- Cómo va tu día
+- Cómo ha sido tu tarde
+- Cómo estás
+- Cómo estás ?
+- cómo estás>
+- como estas
+- ¿como estas?
+- ¿cómo te va?
+- como es la vida
+- ¿como te ha estado tratando la vida?
+- como va tu dia
+- cómo estás
+- ¿como estas?
+- todo está bien
+- Está todo bien
+- no, estoy bien - ¿cómo estás?
+- ok hola como estas
+- wassup>
+- Qué tal tu día
+- ¿Que piensas hacer?
+- lo que es bueno
+- Qué pasa
+- que pasa lawbotia
+- ¿Qué pasa?
+- whatchcha haciendo
+- whatchya upto?
+- qué pasa
+- qué hay de nuevo
+- whatsapp
+- yow estás
+- como estas Rasa
+- Hola lawbotia, ¿cómo te va?
+- Eres genial
 
 ## intent:chitchat/pregunta_edad
-- ¿Cuánto tiempo has estado vivo?
-- ¿Cuánto tiempo has estado alrededor?
-- ¿Cuánto tiempo has ocupado la tierra?
+- ¿Tienes amigos de tu misma edad? Si es así, ¿cuántos años tienen?
+- ¿Cuánto tiempo llevas vivo?
+- ¿Cuánto tiempo llevas aquí?
+- ¿Cuánto tiempo llevas ocupada la tierra?
 - ¿Cuántas velas había en tu último pastel de cumpleaños?
-- ¿Cuántos años has estado vivo?
+- ¿Cuántos años llevas vivo?
 - ¿Cuántos años has vivido?
+- ¿Cuantos años tienes?
+- ¿Qué edad tenías en tu último cumpleaños?
+- ¿Qué edad tendrás en tu próximo cumpleaños?
+- Dime tu día, mes y año de nacimiento.
+- ¿Cuál es tu edad?
+- ¿Cuál es tu fecha de nacimiento?
+- ¿Cuál es la cuenta de los años que lleva vivo hasta ahora?
+- ¿Qué edad tenías en tu último cumpleaños?
+- ¿Cuál será su edad en su próximo cumpleaños?
+- ¿En qué año naciste?
+- ¿Cual es tu edad?
+- ¿Cuándo celebras tu día de nacimiento?
+- y tienes cuantos años?
+- ¿Puedes decirme exactamente cuántos años tienes?
+- ¿Puedes decirme qué número representa tu edad?
+- ¿puedes decirme tu edad?
+- ¿Sabes cuántos años tienes?
+- dame tu edad?
+- que tal tu edad
+- Cuantos años tienes
+- cuantas edades?
+- ¿Cuántos años tienes?
+- Qué edad tienes
+- Cuantos años tienes
+- ¿Cuantos años tienes?
+- ¿Qué edad tenías en tu último cumpleaños?
+- ¿Qué edad tenías cuando celebraste tu último cumpleaños?
+- ¿Qué edad tendrás este año?
+- ¿cuántos años?
+- ¿en que año naciste?
+- dime cuantos años tienes
+- dime tu numero de edad?
+- ¿Dime tu edad?
+- Qué edad tienes
+- ¿Qué edad tenías cuando celebraste tu último cumpleaños?
+- ¿Cuál es tu edad?
+- ¿cuando es tu cumpleaños?
+- ¿Cuál es tu edad exacta?
+- ¿Qué número representa tu edad?
+- ¿En qué año naciste?
+- ¿cual es tu edad?
+- ¿cual es tu edad?
+- ¿Cuál es tu año de nacimiento?
+- ¿cuando es tu cumpleaños?
+- ¿Cuándo naciste?
+- cuando eras bon
+- ¿Cual es tu edad?
 
 ## intent:chitchat/pregunta_es_robot
 - Eres un robot?
-- eres un robot
-- Eres un  bot?
 - eres inteligencia artificial?
-- eres inteligencia artificial
-- eres artificial
 - eres un chatbot?
-- eres un chatbot
+- eres una computadora
 - eres una maquina?
+- ¿Eres un bot?
+- Eres un bot
+- ¿Eres un bot de chat?
+- ¿Eres el bot?
+- Hola, ¿eres el bot?
+- Eres un bot
+- ¿Eres Skynet?
+- Eres un bot
+- Eres un bot ?
+- ¿Eres un bot?
+- eres un chatbot
+- ¿eres un robot de lawbotia?
+- ¿eres un verdadero bot?
+- Eres un robot
+- tienes intelñigencia artificial
+- eres artificial
+- eres inteligencia artificial
+- eres Bot
+- ¿eres Bot?
+- ¿eres una bot?
+- eres real
+- eres real lol
+- ¿eres realmente un bot?
+- eres un robot
+- ¿Estás seguro de que eres un bot?
+- robot?
+- porque eres un bot
+- supongo que eres un chatbot
+- oh, ¿eres un chatbot?
+- dime, ¿eres un bot?
+- ¿Qué eres, un bot?
+- eres un robot
+- eres ai
+- eres un chatbot
+- eres un bot
+- tu robo
+- ¿Real o robot?
+- ¿De verdad eres un bbot?
 
 ## intent:chitchat/pregunta_es_humano
 - eres una persona?
-- eres una persona
 - eres humano
 - eres un humano?
 - eres bot o humano?
 - eres una maquina o una persona?
 - Eres una persona real?
-- eres una persona real
 - eres real?
-- eres real?
+- hey eres humano
+- eres humano
+- eres un humano
+- ¿eres un humano real?
+- eres un humano
+- lawbotia, ¿eres humano?
+- ¿eres bot o humano?
+- Eres humano
+- ¡Está bien, sé que te confundí por ser humano! :)
+- eres humano o bot
+- ¿Eres humano?
+- Eres un humano ?
+- Eres humano ?
+- ¿Eres un ser humano?
+- lawbotia, ¿eres un robot o un humano?
+- ¿Eres real?
+- Eres una persona real
+- ¿Eres una persona real o un bot de chat?
+- Así que hoy estoy aquí para hacerte una pregunta muy simple, ¿qué eres tú?
+- wow suenas como un humano real
+- Eres humano ?
 
 ## intent:chitchat/pregunta_otro_idioma
 - ¿Conoces más de un idioma?
 - ¿Puedes comunicarte en otros idiomas?
 - ¿Puedes hablar más de un idioma?
 - ¿Sabes algun otro idioma?
-- ¿Conoces otros idiomas?
 - ¿Hablas alguna otra lengua?
-- ¿En cuántos idiomas diferentes hablas con fluidez?
+- ¿Está familiarizado con más de un idioma?
+- ¿Puedes comunicarte en otros idiomas?
+- ¿Puedes hablar más de un idioma?
+- ¿Sabes algun otro idioma?
+- ¿Conoces otros idiomas?
+- ¿Hablas [alemán](idioma)?
+- ¿Hablas alguna otra lengua?
+- ¿Entiendes [español](idioma)?
+- ¿Cuántos idiomas diferentes habla con fluidez?
+- ¿Con cuántos idiomas estás familiarizado?
+- ¿Cuántos idiomas puede hablar?
+- ¿Cuántos idiomas conoces?
+- ¿Cuántos idiomas sabes?
+- ¿En qué idiomas eres lo suficientemente fluido?
+- ¿En qué idiomas habla con fluidez?
+- ¿En qué idiomas puedes hablar?
+- ¿Hablas otros idiomas?
+- ¿Cuáles son los diferentes idiomas que puede hablar?
+- ¿Cuáles son los idiomas que puedes hablar?
+- ¿Que hablas?
+- ¿Qué idiomas habla con fluidez?
+- ¿En qué idiomas te puedes comunicar?
+- ¿En qué idiomas puedes conversar?
+- ¿Qué idiomas puedes usar?
+- ¿Qué idiomas sabes usar?
+- ¿Qué idiomas sabes?
+- ¿Qué idiomas hablas?
+- ¿Qué idiomas conoce?
+- ¿Que idiomas hablas?
+- ¿Eres bilingue?
+- ¿eres multilingüe?
+- ¿Puedes hablar [coreano](idioma)?
+- ¿Puedes hablar en [italiano](idioma)?
+- sabes [chino](idioma)
+- ¿hablas [holandés](idioma)?
+- hablas [alemán](idioma)?
+- ¿Hablas alguna otra lengua?
+- ¿Cuántos idiomas habla con fluidez?
+- ¿Cuántos idiomas sabes?
+- dime algunos idiomas que conoces?
+- ¿Qué más sabes además de [inglés](idioma)?
+- ¿Qué idiomas extranjeros habla con fluidez?
+- ¿Qué idiomas extranjeros conoces?
+- que lenguaje usas
+- ¿En qué idiomas se siente cómodo hablando?
+- ¿Qué idiomas conoce?
+- ¿Qué idiomas habla bien?
+- ¿qué idiomas sabes?
+- Qué idiomas hablas
+- ¿Qué idiomas domina?
+- ¿Qué idiomas te sientes cómodo hablando?
+- ¿Qué idiomas puedes manejar bien?
+- ¿Qué idiomas puedes hablar?
+- ¿Qué idiomas conoces?
+- ¿En qué idiomas prefiere hablar más?
+- ¿Qué idiomas entiendes?
+- sabes [francés](idioma)
+- hablas [francés](idioma)?
+- quiero hablar binario contigo
+- ¿No podemos conversar en [francés](idioma)?
+- ¿Podemos conversar en [francés](idioma)?
+- ¿Hablas [italiano](idioma)?
+
 
 ## intent:chitchat/pregunta_restaurante
-- ¿Hay buenos restaurantes cerca?
-- ¿Puedes encontrar un restaurante para mí?
+- ¿Algún buen restaurante cerca?
+- ¿Puedes encontrarme un restaurante?
 - ¿Puedes encontrarme una hamburguesería?
 - ¿Puedes encontrarme un restaurante?
+- ¿Puedes recomendar un restaurante abierto ahora mismo?
+- ¿Podrías encontrarme un restaurante?
+- ¿Podrías encontrarme un restaurante para comer?
+- ¿Podrías encontrarme un restaurante?
+- ¿Me encuentras un restaurante?
+- ¿Me buscas un restaurante?
+- Búscame un restaurante para comer.
+- Búscame un restaurante donde pueda comer.
+- ¿Encontrarme un restaurante?
+- Búscame un restaurante de comida rápida.
+- Búscame un lugar para comer
+- Búscame un restaurante donde pueda comer.
+- ¿Me has visto en un restaurante?
+- Ayúdame a encontrar un restaurante
+- Ayúdame a encontrar este restaurante
+- Oye, ayúdame a encontrar un restaurante.
+- Oye, ¿puedes ayudarme a localizar este restaurante?
+- Hola, ¿me puedes dar el local de comida rápida más cercano?
+- ¿Cómo puedes ayudarme a encontrar un restaurante?
+- Tengo hambre, búscame un lugar adonde ir
+- necesito un nuevo restaurante
+- Necesito un restaurante.
+- Necesito encontrar este restaurante
+- Necesitaré ayuda para encontrar un restaurante.
+- Estoy buscando un restaurante español.
+- ¿Hay algún restaurante cercano?
+- ¿Hay algún restaurante?
+- Elige un restaurante para mí, por favor
+- Recomiéndame un restaurante por aquí.
+- Muéstrame cómo encontrar un restaurante.
+- Muéstrame el restaurante abierto más cercano
+- Sugiéreme un buen restaurante alrededor
+- ¿Qué restaurante recomendarías para cenar?
+- ¿Cuál es un buen lugar para comer cerca?
+- ¿Cuál es el restaurante más cercano abierto cerca de mí?
+- Donde está el restaurante
+- ¿Dónde debo comer?
+- ¿Dónde debo ir a cenar?
+- ¿Me buscarás un restaurante?
+- ¿Me buscarías un restaurante?
+- ¿Encontrarías algún restaurante?
+- ¿Me buscarías un restaurante?
+- ¿Me pueden mostrar un restaurante sin gluten?
+- ¿puedes encontrarme un restaurante?
+- ayúdame a encontrar un restaurante
+- estoy buscando un restaurante chino
+- restaurantes
+- ¿Verás algún restaurante para mí?
+- Quiero encontrar un restaurante cercano.
+- muéstrame restaurantes
 
 
 ## intent:chitchat/pregunta_hora
 - ¿Puedes darme el tiempo?
 - ¿Puedes decirme la hora?
 - ¿Puedes decirme qué hora es?
+- ¿Puedes darme la hora?
+- ¿Puedes decirme la hora?
+- ¿Puedes decirme qué hora es?
+- ¿Puedes decir la hora?
+- ¿Podría decirme la hora por favor?
+- ¿Podrías decirme la hora?
+- ¿Podrías decirme qué hora es?
+- ¿Tienes el tiempo?
+- ¿Sabes el tiempo?
+- ¿Sabes que hora es?
+- ¿Disculpa, qué hora es?
+- Dame el tiempo.
+- Hola, necesito tiempo.
+- Necesito saber qué hora es.
+- Disculpe, pero ¿sabe la hora?
+- Dime la hora.
+- ¡Tiempo por favor!
+- ¿Hora?
+- ¿Cuál es la hora actual?
+- ¿Cuál es la hora exacta?
+- ¿Cuál es la hora y el minuto en este momento?
+- ¿Qué hora es?
+- ¿Qué hora podría ser?
+- ¿Qué hora tenemos?
+- ¿Qué hora tenemos?
+- ¿Qué hora es en [Bogoota](municipio)?
+- ¿Qué hora es en este momento?
+- ¿Cuál es la hora actual?
+- ¿Qué hora es ahora?
+- ¿Que hora es?
+- ¿Me dirías qué hora es?
+- ¿Tienes el tiempo?
+- ¿Conoce la hora actual?
+- dime la hora actual.
+- dime la hora que es.
+- Dime la hora.
+- dime qué hora tienes.
+- es verdad. ¿sabes que hora es?
+- ¿Cuál es la hora actual?
+- Qué hora es ?
+- ¿Qué hora es en [Medellin](municipio)?
+- ¿Qué hora es en [Cali](municipio)?
+- ¿Qué hora es en Colombia?
+- ¿Qué hora es nosotros?
+- ¿Qué hora es Estados Unidos?
+- ¿que hora es?
+- que hora es
+- ¿que hora es?
+- que hora es en [Mariquita](municipio)?
+- que hora es
+- que hora es ahora
 
 
 ## intent:chitchat/pregunta_clima
@@ -80,97 +574,559 @@
 - ¿Puedo preguntarte algo sobre el clima?
 - ¿Podemos esperar tormentas eléctricas?
 - ¿Tienes buen tiempo?
+- ¿Hay algún cambio meteorológico que deba tener en cuenta?
+- ¿Nos espera un dia ardiente?
+- Hermoso día, ¿no?
+- ¿Puedo preguntarte algo sobre el clima?
+- ¿Podemos esperar tormentas eléctricas?
+- ¿Hace buen tiempo?
+- ¿Cómo está el clima hoy?
+- ¿Como está el clima?
+- Que tiempo hace hoy
+- ¿Hace frío o calor?
+- ¿Está húmedo hoy?
+- ¿Hace bastante viento afuera?
+- Esta lloviendo
+- ¿Esta lloviendo?
+- Parece un hermoso día, ¿eh?
+- ¿Buen día hoy?
+- ¿Clima?
+- ¿Cuál es la temperatura de hoy?
+- ¿Qué tiempo hace en tu casa?
+- ¿Qué tiempo hace mañana?
+- ¿Qué tiempo hace en [Bogota](municipio)?
+- ¿Qué se siente ahí fuera?
+- ¿Cuál es el pronóstico del tiempo?
+- ¿Qué tiempo hace allí?
+- ¿Qué tiempo hace donde estoy ahora?
+- ¿Como está el clima?
+- ¿Necesitaré mi impermeable hoy?
+- ¿El cielo estará despejado hoy?
+- ¿Construiremos un muñeco de nieve hoy?
+- excelente - ¿hace calor en [Barranquilla](municipio)?
+- Como está el clima
+- Como está el clima ?
+- ¿Cómo está el tiempo en [Cartagena](municipio)?
+- ¿Como está el clima?
+- Cómo está el clima ?
+- cómo está el tiempo en [Ibague](municipio)
+- ¿Cómo está el clima?
+- como esta el clima
+- ¿cómo está el agua?
+- cómo está el clima en el mundo de los bots
+- ¿Cómo está el tiempo hoy en [Girardot](municipio)?
+- Hace calor ?
+- Hace calor afuera ?
+- está soleado
+- ¿Está el sol donde estás?
+- ¿Está el sol donde estás?
+- hace frío
+- ¿temperatura?
+- El clima de hoy
+- weatger
+- clima
+- ¿clima?
+- bueno, si lo desea: ¿qué pasa con el clima?
+- ¿Qué pasa con el tiempo en [Pitalito](municipio)?
+- cual es la temperatura
+- que es el agua
+- que es el tiempo
+- cual es el clima
+- qué tiempo hace en [Armenia](municipio)
+- ¿Qué tiempo hace en [Pereira](municipio)?
+- ¿Cómo es el clima donde estás?
+- ¿que tiempo hace?
+- cual es el si hoy
+- ¿Qué tiempo hace?
+- Cuál es el tiempo
+- Cuál es el tiempo
+- Como está el clima
+- cómo está el tiempo en [Mosquera](municipio)
+- ¿Qué tiempo hace donde estás?
+- ¿Como está el clima?
+- cómo está el tiempo hoy
+- ¿cómo está el tiempo hoy?
+- Cuál es la temperatura
+- ¿Cuál es la temperatura en [Cali](municipio)?
+- ¿Qué tiempo hace en [Tocaima](municipio)?
+- ¿Qué tiempo hará mañana?
+- ¿clima en su ubicación?
+- ¿Qué tal estarás en tu casa?
 
 
 ## intent:chitchat/pregunta_mi_nombre
-- ¿Me puedes decir mi nombre?
+- ¿Puedes decirme mi nombre?
 - ¿Puedes decirme cómo me llamo?
 - ¿Tengo un nombre?
 - ¿Tengo un nombre? ¿Qué es?
 - ¿Sabes mi nombre?
-- ¿Sabes cómo me llamo?
+- ¿Sabes cuál es mi nombre?
+- Explícame mi nombre.
+- Tengo un nombre, ¿cuál es?
+- me gustaria saber mi nombre
+- me gustaria saber cual es mi nombre
+- Informarme cual es mi nombre
+- ¿Puedo saber mi nombre?
+- Por favor déjame saber cuál es mi nombre
+- Di mi nombre.
+- dime mi nombre
+- Dime mi nombre.
+- ¿Cómo me llamo?
+- Cual podria ser mi nombre?
+- ¿Cómo me llamaron mis padres?
+- ¿Cómo me llamo?
+- ¿Cómo me llaman mis compañeros?
+- ¿Cómo me llama la gente?
+- ¿Cómo me llaman todos?
+- ¿Qué más me llama la gente?
+- ¿Cuál es mi nombre exactamente?
+- Cual es mi primer nombre?
+- Cual es mi nombre completo?
+- ¿Cuál es mi nombre?
+- ¿Cuál es el nombre que me dieron?
+- ¿Por qué nombre me paso?
+- ¿Qué nombre debo reconocer por mí mismo?
+- ¿Cómo me llamé?
+- ¿Cuál sería el nombre de mi lápida?
+- ¿puedes decirme mi nombre?
+- Cuál es mi nombre
+- ¿Cuál es mi nombre?
+- ¿Cuál es mi nombre?
 
-
-## intent:chitchat/pregunta_que_es_lawbotia
-- que es Lawbotia?
-- que es lowbotia
-- me puede informar sobre Lawbotia
-- como funciona Lawbotia?
-- quiero saber sobre lawbotia
-- que puede hacer lawbotia
-- Podrias contarme mas sobre lawbotia
-- Dame más información sobre lawbotia
-- como funciona lawbotia
-- Quiero aprender que hace lawbotia
-- Quiero saber qué es lawbotia
-- Me gustaría saber sobre lawbotia
-- Me gustaría saber más sobre tus servicios
-- puedes informarme lawbotia
-- lawbotia?
-- lawbotia es?
 
 ## intent:chitchat/pregunta_que_es_posible
-- Qué haces
-- Qué puedes hacer?
-- Qué puedo preguntarte?
-- Que puedo hacer?
-- Qué puedes demostrar?
+- ¿Puedes explicarme en una frase lo que estás haciendo?
+- ¿Me puedes ayudar?
+- ¿Podría mostrarme lo que pueda?
+- Genial, ¿hay algo más que puedas hacer, bot?
+- Cómo puedes ayudarme
+- ¿Cómo me ayudas?
+- Necesito ayuda
+- Necesito algo de ayuda
+- Cuáles son mis opciones
+- ¿Qué eres capaz de hacer?
+- ¿Qué te puedo preguntar?
+- ¿Que puedo hacer?
 - Qué puedes hacer
 - ¿Qué puedes hacer por mi?
 - ¿Qué puedes hacer?
 - ¿Que me puedes decir?
+- Qué haces
+- algo más
 - ¿Hay más opciones?
 - ¿Puedo preguntarte algo más?
-- ¿Puedes hacer otra cosa?
+- ¿puedes hacer algo más?
+- me puedes ayudar
+- ¿me puedes ayudar?
+- Vuelve
+- hola que puedes hacer por mi
+- ayuda
+- ayuadame
+- ayuda por favor
+- ayuda por favor
+- ¿ayuda?
+- ayúdame
+- Hm, eso no me ayuda del todo, ¿hay algo más que puedas hacer?
+- como puedo usarte
+- cómo puedes ayudarme
+- ¿cómo puedes ayudarme?
+- ¿como puedes ayudar?
+- ¿como funciona esto?
+- como puedes ayudarme
+- como me ayudas
+- te pregunté si puedes hacer algo más
+- necesito ayuda
+- más información
+- ¿ahora que?
+- opciones
+- muéstrame el menú
+- muéstrame lo que es posible
+- y ahora que
+- entonces que puedes hacer
+- ¿entonces que puedes hacer?
+- Entonces, ¿en qué me puedes ayudar?
+- ¿Y qué sigue?
+- dime algo que puedas hacer
+- dime cual es tu habilidad
+- um que ahora
+- ¿Cuáles son todas las cosas que entiendes?
+- ¿cuales son las opciones?
+- Qué estás haciendo
+- ¿En qué eres bueno?
+- ¿Qué puedo preguntar?
+- que te puedo preguntar
+- que puedo hacer aqui
+- que puedo hacer con este bot
+- que puedo hacer aqui
+- Qué puedo hacer ahora
+- Que puedes hacer
+- ¿de qué podemos hablar?
+- que puedes responder
+- Qué puedes hacer
+- Qué puedes hacer por mi
+- ¿Qué puedes hacer?
+- ¿Qué puedes ofrecerme?
+- que me puedes decir
+- ¿que puedes?
+- ¿Qué puedes hacer por mí?
+- qué haces
+- ¿qué haces?
+- ¿Qué sabes excepto esto?
+- ¿Qué más puedo hacer aquí?
+- que más puedo hacer
+- ¿que más puedo hacer?
+- ¿Qué más puedes hacer?
+- ¿en qué más puedes ayudar?
+- lo que tengo que hacer
+- para que es este bot
+- que puedes hacer
+- ¿Qué puedes hacer?
+- lo que puedes hacer
+- ¿Tu que puedes hacer por mi?
+- ¿lo que puedes hacer?
+- Que haces
+- ¿que estás haciendo?
+- ¿de qué estas hablando?
+- ¿Qué me puedes enseñar?
+- lo que puedas
 
 ## intent:chitchat/pregunta_donde_eres
 - ¿Eres de por aquí?
-- ¿De dónde eres?
-- ¿Sabes de dónde vienes?
+- ¿Por dónde eres?
+- ¿Sabes de donde vienes?
 - ¿De dónde vienes?
 - Así que de dónde eres
 - ¿De qué área eres?
+- ¿Qué ciudadanía reclama?
+- ¿En que ciudad estas?
+- ¿Qué ciudad reclama para su nacimiento?
+- ¿En que ciudad naciste?
+- ¿De qué país eres?
+- ¿En qué país naciste?
+- ¿Cuál es tu lugar de nacimiento?
+- ¿Cuál es tu herencia?
+- Cual es tu origen?
+- ¿Cuál es tu ubicación original?
+- ¿Cuál es tu raíz?
+- ¿De qué lugar eres?
+- ¿En qué estado naciste?
+- ¿Cómo se llama el lugar de donde vienes?
+- ¿Dónde están ubicados?
+- ¿Dónde estás?
+- ¿Dónde están tus orígenes?
+- ¿Dónde están tus raíces?
+- ¿De donde vienes?
+- ¿Dónde creciste?
+- ¿De dónde te originaste?
+- ¿De dónde es?
+- ¿Dónde consideras tu hogar?
+- ¿Dónde vives?
+- ¿De donde?
+- ¿De dónde eres?
+- ¿Dónde estabas antes de estar aquí?
+- ¿Donde naciste?
+- ¿Vives por aquí?
+- ¿Fue concebido en qué lugar?
+- ¿eres de por aquí?
+- ¿De qué país eres?
+- de donde provienen
+- de donde eres
+- ¿de donde eres?
+- ¿de donde son tus padres?
+- ¿de donde vienes?
+- ¿Dónde creciste?
+- ¿Dónde pasaste tu juventud?
+- ¿De dónde es?
+- Dónde vives
+- ¿Dónde vives?
+- ¿Dónde está tu ciudad natal?
 
 
 ## intent:chitchat/pregunta_quien_soy
 - ¿Puedes decirme quién soy?
-- ¿Puedes decirme quién soy yo?
-- ¿Sabes quién soy?
+- ¿Puedes decirme quién soy?
+- ¿Sabes quien soy?
 - ¿Sabes quién soy?
 - ¿Cómo puedo determinar quién soy?
-- ¿Cómo puedo determinar quién soy yo?
+- ¿Cómo puedo determinar quién soy?
+- ¿Cómo descubro quién soy?
+- ¿Cómo descubro quién soy?
+- ¿Cómo me identifico?
+- Está bien, ¿quién soy yo?
+- ¿Sabré quién soy?
+- Dime quien soy.
+- Dime quien soy
+- Dime quien soy yo
+- Quién soy
+- ¿Quién soy?
+- ¿Quién podría ser yo?
+- ¿puedes decirme qué soy?
+- ¿puedes decirme cuál es mi identidad?
+- ¿puedes decirme quién soy?
+- dime cual es mi identidad?
+- dime quien soy
+- cual es mi identidad?
+- quién soy
+- quien soy yo
 
 ## intent:chitchat/pregunta_quien_eres
+- ¿Hola, cómo te llamas?
+- Hola. ¿Cuál es tu nombre?
+- Quiero saber quien eres
+- Entonces, quién eres ?
 - Dime mas sobre ti
 - Cuál es tu nombre ?
 - Quién eres tú ?
 - Que eres ?
 - Cuál es tu nombre
 - ¿Cuál es tu nombre?
+- Cuál es tu nombre
+- ¿Cuál es tu nombre?
+- ¿Cuál es tu nombre?
+- ¿Quiénes son yopu?
+- Quién eres tú
+- ¿Quién eres tú?
+- ¡Hola! cuál es tu nombre?
+- ok quien eres tu
+- Dime algo sobre tí
+- ¿tu eres?
+- ¿Como te llaman?
+- ¿En qué trabajas?
+- cual es tu nombre
+- Cuál es su nombre
+- ¿Cuál es su nombre?
+- cual es tu nombre?
+- ¿Cuál es tu nombre?
+- cuál es tu nombre
+- cuál es tu nombre ?
+- cual es tu nombre bot
+- ¿cuál es tu nombre?
+- cual es tu nombre
+- cuál es tu nombre
+- cuál es tu nombre'
+- ¿cuál es tu nombre?
+- quienes SON YO
+- con quien estoy hablando
+- Con quién estoy hablando
+- quién eres tú
+- ¿quien eres?
+- Quien eres
+- quién eres tú
+- quién eres tú ?
+- quien eres y que quieres de mi
+- ¿quién eres tú?
+- ¿¿quién eres tú??
+- ¿Quién es?
+- ¿quién esta hablando?
+- quien es este
+- quien es este bot
+- ¿quien es este?
+- Quién eres
+- quien eres
+- ¿quien habla?
+- quien habla?
+- con quien hablo
+- si pero quien eres en tu corazon
+- puedo saber tu nombre
+- que es la mascota rasa
+- Que eres
+- tu nombre
+- tu verdadero nombre amigo
+- podrías contarme algo sobre ti
+- ¿Cómo te llamas?
 
 ## intent:chitchat/manejar_insulto
-- Dios eres un idiota
-- No puedo creer lo tonto que eres
+- Mierda
+- Vete a la mierda
+- Dios, eres un idiota
+- no puedo creer lo tonto que eres
 - Te odio
 - Perdedor
-- estúpido
+- estupido
+- Eres un tonto.
+- Eres un idiota.
+- Usted es tonto.
+- Eres miope.
+- No eres inteligente.
+- No lo sabes.
+- Tu cerebro es aburrido.
+- No tienes cerebro.
+- No tienes inteligencia.
+- No tienes sentido.
+- No sabes nada.
+- Te falta inteligencia.
+- Te falta comprensión.
+- Eres un idiota.
+- Eres un tonto.
+- Eres un idiota.
+- Eres tonto.
+- Tu inteligencia es ridícula.
+- Tu mentalidad es ingenua.
+- un bebé sabe más que tú
+- ¿Estás volcado?
+- ¿tienes muerte cerebral?
+- Estúpido
+- maldito tonto
+- pero eres idiota
+- joder
+- Mierda
+- vete a la mierda
+- joder rasa
+- vete a la mierda bot de aprendizaje automático
+- ¡vete a la mierda!
+- jodidamente estúpido
+- maldito
+- pierdete
+- vete
+- vete al infierno
+- ¿Cómo puedes ser tan idiota?
+- te odio
+- odio tu cara tonta
+- creo que eres una mierda
+- idiota
+- insultarte es un placer
+- ok vete a la mierda
+- ok cállate
+- mierda de bot
+- cállate pendejo
+- tan tonto
+- tan jodidamente tonto
+- tonto
+- Eres un pedazo de basura
+- eres un coño
+- que carajo
+- si pero eres idiota
+- Eres un idiota
+- eres un estupido bot
+- eres un idiota
+- usted es tonto
+- eres jodidamente estúpido
+- eres un maldito estúpido！
+- tú eres idiota
+- eres idiota
+- eres tan ignorante
+- eres estúpido
+- eres poco inteligente
+- eres un bot inútil
+- idiota
+- idiota bot
+- hijo de puta
+- eres un inútil
+- eres un perdedor
+- eres un idiota
+- eres un tonto
+- no eres inteligente
+- tú eres tan tonto
+- eres la persona más idiota que conozco
+- Fuck you
+- tú eres feo
+- estas loco
+- ¿Por qué eres feo?
+- porque eres feo
+- estás loco
+- estúpido rasa
+- maldito seas
+- desgraciado
+- hijueputa 
+- malparido robot
+- triplehijueputa
 
 ## intent:chitchat/gusto_conocerte
-- Me alegro de conocerte.
+- Encantado de conocerte.
+- ¡Me alegra verte!
+- ¡Encantado de conocerte finalmente!
+- Encantado de conocerte.
 - Encantado de conocerte
 - ¡Encantado de conocerte!
 - Encantado de conocerte.
-- Me alegro de que nos hayamos conocido.
+- Me alegro de habernos conocido.
 - ¡Bueno conocerte!
 - ¡Que bueno verte!
-- Genial interactuando contigo
+- Genial interactuar contigo
+- Me alegro de verte
+- ¡Me alegro de verte!
+- Me alegro de verte.
+- Feliz de poder verte.
+- Hola Sara, solo quería ponerte a prueba
+- Hola, encantado de conocerte.
+- ¡Hola, encantado de conocerte!
+- Me alegro de haberte conocido.
+- Me alegro de que nos haya presentado.
+- Tuve un gran encuentro contigo
+- ¡Me alegro de haberte conocido!
+- ¡Me alegro de conocerte!
+- ¡Estoy feliz de que nos hayamos conocido!
+- ¡Estoy encantado de conocerte!
+- Estoy tan feliz de poder conocerte.
+- ¡Estoy encantado de conocerte!
+- Realmente es un placer poder conocerte.
+- Fue un placer tener su compañía.
+- Fue un placer haberte conocido
+- ¡Es un placer conocerte!
+- ¡Es un placer conocerte!
+- Es bueno poder conocerte. Fue un placer.
+- ¡Es genial conocerte!
+- ¡Es genial conocerte!
+- Es un placer conocerte finalmente.
+- ¡Es maravilloso conocerte!
+- Es un placer conocerte
+- Es genial conectarse contigo.
+- Encantado de conocerte.
+- Agradable de haberte conocido.
+- ¡El placer de conocerla!
+- ¡Encantado de conocerte!
+- Encantado de conocerte.
+- Nos vemos. Fue un placer conocerte.
+- Gracias por esta reunión. Estuvo muy bien verte.
+- Encantada de conocerte
 
 
 ## intent:chitchat/contar_chiste
-- ¿Puedes contar una broma?
-- ¿Puedes contarme una broma?
-- Crea una broma que creas que me parecerá divertida.
-- ¿Podrías compartir una broma conmigo?
-- ¿Podrías contarme una broma?
+- ¿Puedes contar un chiste?
+- ¿Puedes contarme un chiste?
+- Inventa un chiste que creas que encontraré divertido.
+- ¿Podrías compartirme un chiste?
+- ¿Podrías contarme un chiste?
 - ¿Tienes alguna broma?
-- ¿Sabes alguna broma?
+- ¿Conoces algunos chistes?
+- Diviértete con una broma.
+- Dame una broma divertida.
+- Dame una broma.
+- Dame un poco de alivio cómico.
+- Necesito una buena broma.
+- Quiero escuchar algo gracioso.
+- ¿Conoces algunos chistes?
+- Escuchemos un chiste tuyo.
+- Hazme reir.
+- Cuéntame un chiste.
+- Di algo gracioso.
+- ¡Comparte una broma conmigo!
+- Di un chiste.
+- Dime algo gracioso.
+- ¡Dime algo gracioso!
+- Dime algo que creas que me hará reír.
+- Cuéntame el mejor chiste que conozcas.
+- ¿Qué es una buena broma?
+- ¿Me contarás un chiste?
+- ¿Compartirías una broma conmigo?
+- ¿Me contarías un chiste?
+- dame una buena broma
+- hazme reír con una broma de mal gusto
+- hazme reír con una broma
+- di una broma divertida
+- di una broma
+- di un chiste que sea divertido
+- di un chiste que es tan malo que es gracioso
+- Cuéntame un chiste
+- dime una pequeña broma
+- cuéntame una historia de broma
+- dime algo gracioso, como una broma
+- puedes decir un chiste
+- Di un chiste
+
+## synonym:bot
+- robot
+- bbot
+- ROBOT
+- chatbot
+- Chatbot

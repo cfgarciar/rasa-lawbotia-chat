@@ -1,90 +1,498 @@
 ## intent:afirmar
-- Acepto
-- acepto
-- aceptado
-- acordado
+- aceptar
 - ¡Increíble!
+- cool
 - Bueno
-- bueno
 - Excelente
 - Acepto
-- Acepto.
-- acepto
 - Estoy de acuerdo
+- Lo estoy usando
+- Cambié de opinión. Quiero aceptarlo
+- Lo entiendo
+- Supongo que sí
+- lo he usado en el pasado
+- Me encantaría eso
+- ¡Estoy seguro de que lo haré!
+- Lo estoy usando
+- OKAY
+- Por supuesto
+- Oh si
+- Oh, ok
+- Okay
+- Vale, empecemos
+- Okay.
+- Bueno
+- ¡Bueno!
+- Por supuesto
+- sweet
+- Eso seria genial
+- si
+- Si seguro
+- Sí, está bien
+- ¡Sí!
+- Yepp
+- Sí por favor
+- ¡Sí por favor!
+- Sí, acepto
+- absolutamente
+- aceptar
+- aceptado
+- acordado
+- ah ok
+- bien
+- OK, está bien
+- increíble
+- ¡increíble!
+- confirmar
+- cool :)
+- buena historia hermano
+- definitivamente si sin duda
+- hecho
+- lo suficientemente justo
+- por supuesto
+- bien
+- Vamos
+- adelante
+- ve a por ello
+- bueno
+- estupendo
+- genial, hagamos eso
+- ¡estupendo!
+- Oh sí
+- hm, me gustaría eso
+- ¡Que agradable!
+- acepto
+- estoy de acuerdo
+- ¡estoy!
+- Quiero eso
+- está bien
+- está bien
+- yep
+- yep genial
+- eso es genial
+- vamos a hacerlo
+- hagámoslo
+- no está mal
+- por supuesto
+- por supuesto que sí
+- por supuesto
+- ¡Oh asombroso!
+- oh genial
+- oh super
+- Okay
+- está bien
+- está bien
+- OK amigo
+- bien
+- vale genial
+- OK acepto
+- esta bien, entendí
+- Okay...
+- bueno
+- bien genial
+- bien, seguro
+- bueno..
+- Oki Doki
+- okie
+- ok
+- oui
+- Perfecto
+- Por favor
+- algo así como
+- Por supuesto
+- ¡Por supuesto!
+- esta genial
+- esta bien
+- eso suena bien
+- eso es genial
+- esta bien
+- eso es bueno
+- eso es genial
+- parte superior
+- UH Huh
+- mucho
+- bueno, sí
+- ya
+- ya genial
+- hazlo
+- ya quiero
+- ya por favor
+- eso es genial
+- yaah
+- si haz eso
+- si seguro
+- sí 
+- Si, Por qué no
+- yeeeeezzzzz
+- yeeees
+- sí
+- sí, quiero eso
+- sí, si tengo que hacerlo
+- si por favor
+- sí, eso es bueno
+- sí, eso es genial
+- sí, lo haré gracias
+- si acepta por favor
+- si bebe
+- Sí genial
+- si dame informacion
+- sí adelante
+- sí, adelante
+- si genial
+- sí, acepto
+- Sí estoy de acuerdo
+- sí, he construido un bot antes
+- ¡sí tengo!
+- sí lo es
+- si estuvo bien
+- sí, por supuesto
+- si por favor
+- sí por favor
+- ¡sí por favor!
+- si, por favor
+- si señor
+- Sí, eso es genial
+- si eso es lo que quiero
+- sí tu puedes
+- si, me encantaria
+- Sí genial
+- si, dame información, por favor
+- sí lo soy
+- sisoo
+- síss
+- síssss
+- siyestyes
+- si si si
+- yez
+- me hiciste una pregunta de sí o no, que respondí con un sí
+- me tienes, acepto, si quieres que lo haga
+- Sip
+- yyeeeh
+- Está bien, genial
+- Okay..
+- ¡suena bien!
 
 ## intent:negar
+- no quiero
+- no quiero dártelo
+- no quiero decir
+- no quiero contar
+- no te lo voy a dar
+- NEIN
 - NO
-- no
+- ¡NO QUIERO ESTO!
+- nah
+- Ninguno
+- Nunca
+- No importa
 - No
+- No gracias
+- No en realidad no.
+- No gracias
 - No.
-- N/A
-- n/o
-- no!
-- noooooooo
+- Nope
+- Realmente no
+- absolutamente no
+- definitivamente no
+- negar
+- renuncio
+- no me gusta esto
+- no lo creo
+- no quiero ninguno de esos
+- no quiero
+- no quiero darte mi correo electrónico
+- no quiero
+- no quiero aceptar
+- supongo que significa no
+- Me temo que no
+- no estoy seguro
+- va bastante mal
+- nah
+- no, estoy bien
+- no, no para mi
+- nah, primera vez
+- no, estoy bien
+- nehi
+- nein
+- ninguno
+- Nunca
+- no importa
+- No
+- No :(
+- no, no quiero
+- no, todavía no he decidido
+- no y no otra vez
+- sin bots en absoluto
+- no vayas
+- no, no puedo
+- no, no acepto
+- no, no quiero
+- no, no quiero aceptar
+- no, no lo haré
+- No, señora
+- no señor
+- No lo siento
+- no, gracias
+- no gracias
+- no, gracias
+- de ninguna manera
+- no, lo hiciste mal
+- ¡¡¡¡No!!!!
+- no, lo odio
+- no, mi primera vez
+- no gracias
+- no, gracias
+- no gracias
+- No. tu idiota
+- no
+- noooooooooo
+- noooooooooooooooooooooooooooooooooooooooo
 - nop
-- No gracias
-- No gracias
-- No, gracias
-- No señora
-- No señor
+- no
+- ¡no!
+- nop. soy bueno
+- no va nada bien
+- realmente no
+- no ahora
+- aún no
+- No
+- lo siento, no ahora
+- todavía no quiero decir
+- gracias pero no gracias
+- esto apesta
+- muy mal
+- No necesito ayuda para instalar
+- No quiero decir el nombre de mi empresa.
+- no te detengas
+- Basta, no me importa !!!
+- ninguno de ellos
+- no estoy de acuerdo
 
 ## intent:saludar
+- Buen día
+- Bonjour
+- Buenos días
+- Buenos días
+- Buen dia
+- buenas
 - HOLA
 - OYE
+- Hola
+- HOLA
+- Hola lawbotia
+- hola
+- hei
+- Holaoooooo
+- Hola
+- Hola Bot
+- Hola tu
+- Hello
+- hola lawbot
+- ¡Hola!
 - Oye
+- Hey bot
+- heya
+- Heylo
+- Hola
+- Hola compa
+- ¡Hola sara!
+- Hola bot
+- Hola hombre
+- Hola rasa
+- Hola sara
+- Hola.....
+- Hola
+- ¡Hola!
+- Hola'
+- Hola,
+- Hola, bot
+- Heyyyy
+- Hiiiiiiiiii
+- Hola
+- Bueno, hola ;)
+- ¿Qué pasa?
+- Qué pasa
+- ¿Qué pasa con mi bot?
+- ¿Qué pasa?
+- bonjour
+- ey jefe
+- buena noches
+- Buenos dias
+- Buenos días
+- saludar
+- saludos
+- hai
+- hola
+- hola
+- holaooo
+- halo
+- oye
+- heelio
+- infierno
+- hellio
+- Hola
+- aloooo
+- Hola todos
+- Hola amigo
+- Hola
+- Hola hay alguien ahí
+- hola soy yo de nuevo
+- hola robot
+- buenas tardes
+- hola corazón sudor
+- hola dulce chico
+- Hola a todos
+- Hola Mundo
+- hola, mi nombre es [paola](nombre)
+- ¿Hola?
+- hola
+- holaooo
+- hola
+- Oye
+- hey bot
+- ¡Ey bot!
+- oye amigo
+- hey hey
+- hey hablemos
+- oye lawbotia
+- buenas nochessss
+- hey allí
+- Hola
+- hola chico
+- Hola..
+- oye, hablemos
+- ¡Oye, lawbotia!
+- heya
+- heyho
+- heyo
+- hhola
+- Hola
+- Hola !
+- Hola señor
+- Hola de nuevo
+- hola puedes hablar?
+- Hola amigos
+- Hola amigo
+- Hola amigos
+- hola hola
+- hola soy [carlos](nombre)
+- hola soy [Amanda](nombre)
+- hola señor
+- ¡hola amigo!
+- Hola
+- hola soy yo
+- ¡Hola!
+- Hola................................................
+- ¿Hola?
+- hieee
+- Hola yo
+- hiihihi
+- hola
+- hola
 - Hola
 - hola
-- ¡Hola!
-- ¿Hola?
-- Hola
-- Hei
-- hey, hablemos
-- Hellllooooooo
-- Hello
-- hello
-- hola hola
-- hola bot
-- Hola bot
-- hola lawbotia
-- hola lawbot
+- soy [Karen](nombre)
+- jojojo
+- jop
+- konichiwa
+- merhaba
+- rasa hola
+- salut
+- sup
+- wasssup
+- ¡Wasssup!
+- Que pasa
+- Qué pasa
+- yo
+- yoo
+- whatsupp
 
 ## intent:despedir
 - Adiós
 - Adiós
 - adios
+- adios?
+- adiós
+- adiós
+- adiós: P
+- adiós bot
 - adiós
 - adiós bot
 - adiós por ahora
-- chao fue un placer hablar contigo
+- adiós señor
+- adiós fue agradable hablar contigo
 - ¡adiós!
-- byee
-- bye
+- adiós
 - te veo luego
-- chao
+- ciao
+- cya
 - despedida
+- adiós
+- ¡adiós rasa bot!
+- buenas noches
+- adiós
+- adiós.
+- adios buenas noches
+- me tengo que ir
+- k byyye #slay
+- OK, Adios
+- OK, Adios
+- OK, Adios
+- OK, Adios
+- Nos vemos luego
+- nos vemos
+- nos vemos
+- nos vemos . adiós
+- Cuídate
+- entonces adiós
+- hablar contigo más tarde
+- Salida
+- Cierre esta charla
+- bye
+- good bye
+- fue agradable
 
 ## intent:agradecer
+- Cool. Gracias
+- Muchas gracias
 - Gracias
-- gracias
-- gracias!
+- Gracias lawbotia
+- Muchas gracias
+- ¡Gracias!
+- Gracias
 - Gracias bot
 - Gracias por eso
 - ¡Gracias!
-- genial, gracias
-- genial, gracias
 - increíble, gracias
+- salud
+- salud hermano
+- genial, gracias
+- Genial, gracias
+- Genial, gracias
+- danke
 - muchas gracias
 - OK gracias
 - ok gracias lawbotia
 - ¡OK gracias!
 - Perfecto, gracias
+- Gracias
+- gracias
 - gracias de todos modos
-- Muchas gracias por todo
-- Muchas gracias
+- Gracias
+- muchas gracias por todo
 - muchas gracias
+- gracias por el enlace del foro, lo comprobaré
 - gracias por la ayuda
+- gracias esta es una gran noticia
+- gracias
+- ¡Gracias!
+- gracias
+- gracias
+- Gracias
 - si gracias
 - gracias por tu información
+- thanks
+- thank you
 
 ## intent:explicar
 - Explícamelo?
@@ -105,6 +513,24 @@
 - Qué significa eso?
 - que significa esto?
 - ¿Cómo?
+- puedes darme mas informacion
+- ¿Podrías explicar por qué lo necesitas?
+- podrías decirme más
+- Explícamelo
+- explica eso
+- quiero mas informacion
+- me gustaría saber por qué lo necesitas
+- por favor explicame porque
+- por favor explique
+- ¿Por qué necesitas saber eso?
+- ¿Por qué es eso necesario?
+- dame más detalles
+- por qué
+- Qué quieres decir con eso
+- Qué significa eso
+- ¿Cómo?
+- quiero sabe mas
+- no es suficiente informacion
 
 ## intent:reaccion_positiva
 - bien
@@ -122,27 +548,162 @@
 - Eres agradable.
 - Eres realmente genial
 - contento
+- :)
+- :D
+- JAJA
+- Yo estoy feliz
+- jajaja
+- jajaja
+- Lol eso es gracioso
+- Se ve bien
+- GUAU
+- Guau
+- Eres genial
+- Eres lindo.
+- Eres agradable.
+- eres realmente genial
+- jajaja
+- jaja
+- jaja
+- jaja
+- jajaja
+- contento
+- Me estoy sintiendo feliz
+- Yo estoy feliz
+- hoy estoy feliz
+- estoy muy contento con tu respuesta
+- te quiero
+- es genial
+- jajaja
+- te amo
+- está bien bot, eres genial
+- lawbotia es impresionante
+- una gran demostración
+- eso es gracioso
+- esa fue una gran interacción
+- eso es gracioso
+- hoy fue un buen dia
+- Guau
+- ¡Eres un robot rudo!
+- usted es maravilloso
+- eres genial
+- eres un hombre genial
+- lo estás haciendo muy bien
+- eres Gracioso
+- eres genial
+- Tú eres mi nuevo mejor amigo
+- te ves muy bien
+- Me gustas
+- Te quiero
+- eres realmente inteligente
+- me gusta lawbotia
+- hehehe
+- como tu
+- eres muy inteligente
+- Eso es genial.
+- eres bueno
+- Gran información
+- quiero decir que me gustó la explicación
 
 ## intent:reaccion_negativa
 - Me siento mal
 - Estoy triste
-- Estoy súper triste
-- estoy súper triste
-- Estoy muy triste
-- estoy triste por eso
-- muy triste
-- muy muy triste
-- super triste
-- Me siento triste
-- es malo
-- eres malo
-- eres malo bot- Esto es malo
+- estoy super triste
+- Estoy triste
+- estoy super triste
 - Ahora estoy triste
+- Esto es malo
+- eres bastante malo
+- malo
+- chico malo
+- broma de mierda
+- la documentación de lawbotia es muy mala
+- estoy enojado por ti
+- me siento triste
+- estoy triste
+- estoy triste por eso
+- Estoy muy triste
+- me siento triste
+- estoy triste
+- Estoy triste
+- lawbotia es malo
+- triste
+- muy triste
+- muy triste :(
+- super triste
+- tú rompiste mi corazón
+- muy muy triste
+- eres malo
+- eres un mal bot
+- usted me hace triste
+- Estás loco
+- Usted es grosero
+- los bots son malos
+- no me importa !!!!
+- no me gustan los bots
+- esta es una experiencia realmente frustrante
+- eres bastante aburrido
+- estoy tan preocupado
+- me iré
+- Aunque entiendo que aún estás en desarrollo, me siento un poco decepcionado.
+- Seguro que no eres tan inteligente como pensé
+- No me siento bien
+- no está bien
+- Eso es tan grosero
+- tristemente
+- Esa herramienta aquí no es buena
+- aburrido
 
 ## intent:sin_ayuda
-- Creo que no puedes ayudarme
-- y te llamas compañía bot? pff
-- ¿Tienes algo?
+- creo que no puedes ayudarme
+- ¿y eso que es?
+- ¿Y te llamas empresa de bots? pff
+- tienes algo?
 - salida
 - salir ahora
-- hm no creo que puedas hacer lo que quiero
+- oye, prometiste contactarme, pero nadie lo hizo
+- hmmmmm no creo que puedas hacer lo que quiero
+- supongo que no puedes ayudarme entonces
+- ¿nada más?
+- ok supongo que no puedes ayudarme
+- ok entonces no puedes ayudarme
+- ok, pero eso no me ayuda
+- detener
+- deja de volver
+- detener esta conversación
+- eso fue una mierda, no estás ayudando
+- eso no es lo que quiero
+- esta conversación no es realmente útil
+- esto no conduce a nada
+- no puedes ayudarme
+- no puedes ayudarme con lo que necesito
+- no puedes ayudarme con lo que quiero
+- no puedes ayudarme
+- esto no sirvio para nada
+- eso no ayuda
+- hopelesssss
+
+## intent:siguiente_paso
+- continuar con el siguiente paso
+- Vaya al siguiente paso
+- tengo que ir al siguiente paso
+- quiero el siguiente paso
+- quiero ir al siguiente paso
+- siguiente por favor
+- próximo paso
+- siguiente paso ahora
+- siguiente paso por favor
+- siguiente paso pls
+- ok continua por favor
+- ok, paso siguiente
+- vaya al siguiente paso
+- llévame al siguiente paso
+- Cuál es el próximo paso ?
+
+## synonym:si
+- SI
+- sI
+- sip
+- SIP
+- sí
+- Sí
