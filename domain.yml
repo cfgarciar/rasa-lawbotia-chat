@@ -28,6 +28,7 @@ intents:
 
 entities:
   - producto
+  - servicio
   - nombre
   - apellido
   - email
@@ -232,6 +233,30 @@ responses:
   utter_escribir_mensaje:
     - text: "Puede enviarnos un mensaje a [info@lawbotia.com] y le \
     \ resolveremos su inquietud"
+
+  utter_consultas_derechos de peticion:
+    - text: Para saber mas sobre derechos de peticion consulta ...
+
+  utter_nuevo_en_lawbotia:
+    - text: Es su primera vez interacctuando con nosotros
+
+  utter_primer_chatbot:
+    - text: Es su primera interaccion con un chatbot
+
+  utter_explicar_lawbotia:
+    - text: lawbotia es....
+
+  utter_explicar_servicios:
+    - text: nuestros servicios son ....
+
+  utter_explicar_canales:
+    - text: nuestros canales de contacto son...
+
+  utter_explicar_contacto:
+    - text: nos puede contactar en ....
+
+  utter_explicar_chatbot:
+    - text: 
 
 actions:
   - respond_faq

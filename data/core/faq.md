@@ -113,7 +113,7 @@
 * negar
     - utter_thumbsup
 
-## not new to rasa + nlu + nothing special
+## Usuario Viejo + Consultas Juridicas
 * saludar
     - action_greet_user
 * pregunta_como_empezar
@@ -131,7 +131,7 @@
     - utter_info_general_consultas
     - utter_algo_mas
 
-## not new to rasa + nlu + unknown topic
+## Usuario Viejo + Consultas Juridicas + Desconocido
 * saludar
     - action_greet_user
 * pregunta_como_empezar
@@ -150,3 +150,60 @@
     - utter_unknown_consulta_juridica
     - utter_escribir_mensaje
     - utter_algo_mas
+
+## Usuario Viejo + Consultas Juridicas + Derechos de Peticion
+* saludar
+    - action_greet_user
+* pregunta_como_empezar
+    - utter_empezar
+    - utter_primer_servicio
+* negar
+    - utter_preguntar_cual_servicio
+* pregunta_como_empezar{"product": "consulta juridica"}
+    - utter_consulta_juridica_especifico
+* consultas_juridicas_info{"servicio": "derechos de peticion"}
+    - utter_consultas_derechos de peticion
+* faq
+    - respond_faq
+    - action_set_faq_slot
+* negar
+    - utter_thumbsup
+    - utter_algo_mas
+
+## Usuario Nuevo + conoce de chatbots 
+* saludar
+    - action_greet_user
+* faq
+    - respond_faq
+    - action_set_faq_slot
+* pregunta_como_empezar
+    - utter_empezar
+    - utter_nuevo_en_lawbotia
+* afirmar
+    - utter_primer_chatbot
+* negar
+    - utter_explicar_lawbotia
+    - utter_explicar_servicios
+    - utter_algo_mas
+* afirmar OR how_to_get_started OR explain
+    - utter_explicar_canales
+    - utter_explicar_contacto
+
+## Usuario Nuevo + no conoce de chatbots 
+* saludar
+    - action_greet_user
+* faq
+    - respond_faq
+    - action_set_faq_slot
+* pregunta_como_empezar
+    - utter_empezar
+    - utter_nuevo_en_lawbotia
+* afirmar
+    - utter_primer_chatbot
+* afirmar
+    - utter_explicar_chatbot
+    - utter_explicar_servicios
+    - utter_algo_mas
+* afirmar OR how_to_get_started OR explain
+    - utter_empezar
+    - utter_explicar_contacto
