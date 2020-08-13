@@ -1,2 +1,7 @@
 __pycache__/
 models/
+debug.log
+events.db
+events.db-shm
+events.db-wal
+rasa.db
