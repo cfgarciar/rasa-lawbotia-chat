@@ -563,6 +563,9 @@
 ## lookup:productos.txt
   data/nlu/lookups/productos.txt
 
+## lookup:servicios.txt
+  data/nlu/lookups/servicios.txt
+
 ## lookup:idiomas.txt
   data/nlu/lookups/idiomas.txt
 
