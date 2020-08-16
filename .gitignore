@@ -1,5 +1,6 @@
 __pycache__/
 models/
+.vscode/
 debug.log
 events.db
 events.db-shm

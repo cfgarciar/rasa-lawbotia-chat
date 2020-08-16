@@ -32,6 +32,10 @@ policies:
     batch_size:
     - 32
     - 64
+  - core_threshold: 0.3
+    name: TwoStageFallbackPolicy
+    nlu_threshold: 0.8
+    deny_suggestion_intent_name: "trigger_rephrase" 
   - name: MemoizationPolicy
   - name: FormPolicy
   - name: MappingPolicy

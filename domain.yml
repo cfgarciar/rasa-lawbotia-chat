@@ -9,6 +9,7 @@ intents:
 - chitchat
 - out_of_scope
 - feedback
+- trigger_rephrase
 - pregunta_porque_lawbotia
 - pregunta_contactar_ventas
 - pregunta_como_empezar
@@ -26,8 +27,6 @@ intents:
 - reaccion_negativa
 - sin_ayuda
 - siguiente_paso
-- how_to_get_started
-- explain
 
 entities:
 - producto
@@ -39,11 +38,9 @@ entities:
 - idioma
 - funcion_trabajo
 - feedback_value
-- product
 - municipio
+
 slots:
-  business_email:
-    type: unfeaturized
   faq:
     type: unfeaturized
   feedback_value:
@@ -51,10 +48,6 @@ slots:
     values:
     - positive
     - negative
-  name:
-    type: text
-  person_name:
-    type: unfeaturized
   producto:
     type: categorical
     values:
@@ -63,8 +56,7 @@ slots:
     - asistente virtual
   shown_privacy:
     type: unfeaturized
-  unknown_consulta_juridica:
-    type: text
+
 responses:
   utter_preguntar_feedback:
   - buttons:
@@ -221,7 +213,7 @@ actions:
 - action_greet_user
 - action_explain_faq
 - action_set_faq_slot
-- action_store_unknown_consulta_juridica
+- ActionDefaultAskAffirmatio
 - utter_preguntar_feedback
 - utter_saludo
 - utter_saludo_nombre
@@ -271,5 +263,3 @@ actions:
 - utter_explicar_canales
 - utter_explicar_contacto
 - utter_explicar_chatbot
-forms:
-- sales_form
