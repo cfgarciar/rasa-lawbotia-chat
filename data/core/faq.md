@@ -131,25 +131,6 @@
     - utter_info_general_consultas
     - utter_algo_mas
 
-## Usuario Viejo + Consultas Juridicas + Desconocido
-* saludar
-    - action_greet_user
-* pregunta_como_empezar
-    - utter_empezar
-    - utter_primer_servicio
-* negar
-    - utter_preguntar_cual_servicio
-* pregunta_como_empezar{"product": "consulta juridica"}
-    - utter_consulta_juridica_especifico
-* faq
-    - respond_faq
-    - action_set_faq_slot
-    - utter_consulta_juridica_especifico
-* consultas_juridicas_info
-    - action_store_unknown_consulta_juridica
-    - utter_unknown_consulta_juridica
-    - utter_escribir_mensaje
-    - utter_algo_mas
 
 ## Usuario Viejo + Consultas Juridicas + Derechos de Peticion
 * saludar
@@ -185,7 +166,7 @@
     - utter_explicar_lawbotia
     - utter_explicar_servicios
     - utter_algo_mas
-* afirmar OR how_to_get_started OR explain
+* afirmar 
     - utter_explicar_canales
     - utter_explicar_contacto
 
@@ -204,6 +185,6 @@
     - utter_explicar_chatbot
     - utter_explicar_servicios
     - utter_algo_mas
-* afirmar OR how_to_get_started OR explain
+* afirmar
     - utter_empezar
     - utter_explicar_contacto

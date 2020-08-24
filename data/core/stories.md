@@ -35,3 +35,29 @@
 * reaccion_negativa
     - utter_reaccion_negativa
 
+## iniciar_conversacion
+* iniciar_consulta
+    - action_begin_user
+
+## informacion en accion
+* informacion
+    - action_info_user
+
+## guardar nombre usuario
+* usuario_nombre{"guardar_nombre":"si"}
+    - utter_grandioso
+    - user_name_form
+    - form{"name": "user_name_form"}
+    - form{"name": null}
+    - utter_posibilidades
+
+## no guardar nombre usuario
+* usuario_nombre{"guardar_nombre":"no"}
+    - utter_sin_problemas
+    - utter_posibilidades
+
+## welcome
+* welcome
+    - action_welcome_user
+
+    

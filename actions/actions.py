@@ -1,10 +1,3 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
-#
-# See this guide on how to implement these action:
-# https://rasa.com/docs/rasa/core/actions/#custom-actions/
-
-
 from typing import Any, Dict, List, Text, Union, Optional
 
 from rasa_sdk import Action, Tracker
@@ -21,6 +14,81 @@ from rasa_sdk.events import (
 INTENT_DESCRIPTION_MAPPING_PATH = "actions/intent_description_mapping.csv"
 
 
+class ActionWelcomeUser(Action):
+    def name(self) -> Text:
+        return "action_welcome_user"
+
+    def run(self, dispatcher, tracker, domain) -> List[EventType]:
+        dispatcher.utter_message(template="utter_welcome_avatar")
+        dispatcher.utter_message(template="utter_welcome_saludo")
+        dispatcher.utter_message(template="utter_welcome_angel")
+        dispatcher.utter_message(template="utter_welcome_continuar")
+        return [SlotSet("conversacion_iniciada", False)]
+
+
+class ActionBeginUser(Action):
+    def name(self) -> Text:
+        return "action_begin_user"
+
+    def run(self, dispatcher, tracker, domain) -> List[EventType]:
+        dispatcher.utter_message(template="utter_comencemos")
+        dispatcher.utter_message(template="utter_informar_privacidad")
+        dispatcher.utter_message(template="utter_pedir_nombre")
+        return [SlotSet("shown_privacy", True), SlotSet("conversacion_iniciada", True)]
+
+
+class ActionInfoUser(Action):
+    def name(self) -> Text:
+        return "action_info_user"
+
+    def run(self, dispatcher, tracker, domain) -> List[EventType]:
+        info = tracker.get_slot("informacion")
+        if info == "general":
+            dispatcher.utter_message(template="utter_info_general")
+            dispatcher.utter_message(template="utter_especificar")
+            return []
+        elif info == "consulta":
+            dispatcher.utter_message(template="utter_info_consulta")
+            dispatcher.utter_message(template="utter_especificar")
+            return []
+        elif info == "documento":
+            dispatcher.utter_message(template="utter_info_documento")
+            dispatcher.utter_message(template="utter_especificar")
+            return []
+        elif info == "documento":
+            dispatcher.utter_message(template="utter_info_otro")
+            dispatcher.utter_message(template="utter_especificar")
+            return []
+        else:
+            dispatcher.utter_message(template="utter_info_error")
+            dispatcher.utter_message(template="utter_especificar")
+            return []
+
+
+class UserNameForm(FormAction):
+    """Accept free text input from the user for suggestions"""
+
+    def name(self) -> Text:
+        return "user_name_form"
+
+    @staticmethod
+    def required_slots(tracker) -> List[Text]:
+        return ["nombre"]
+
+    def slot_mappings(self) -> Dict[Text, Union[Dict, List[Dict]]]:
+        return {
+            "nombre": [
+                self.from_entity(entity="nombre"),
+                self.from_text(intent="entrar_datos"),
+            ]
+        }
+
+    def submit(self, dispatcher, tracker, domain) -> List[EventType]:
+        nombre = tracker.get_slot("nombre")
+        dispatcher.utter_message(template="utter_agradecer_nombre")
+        return []
+
+
 class ActionGreetUser(Action):
     """Greets the user with/without privacy policy"""
 
@@ -31,7 +99,7 @@ class ActionGreetUser(Action):
 
         intent = tracker.latest_message["intent"].get("name")
         shown_privacy = tracker.get_slot("shown_privacy")
-        name_entity = next(tracker.get_latest_entity_values("name"), None)
+        name_entity = next(tracker.get_latest_entity_values("nombre"), None)
 
         if intent == "saludar" or (intent == "entrar_datos" and name_entity):
             if shown_privacy and name_entity and name_entity.lower() != "angel":
@@ -44,13 +112,12 @@ class ActionGreetUser(Action):
                 return []
             else:
                 dispatcher.utter_message(template="utter_saludo")
-                dispatcher.utter_message(template="utter_inform_privacypolicy")
+                dispatcher.utter_message(template="utter_utter_informar_privacidad")
                 dispatcher.utter_message(template="utter_preguntar_meta")
                 return [SlotSet("shown_privacy", True)]
         else:
             dispatcher.utter_message(template="utter_saludo")
-
-        return []
+            return []
 
 
 class ActionExplainFaqs(Action):
@@ -90,6 +157,17 @@ class ActionSetFaqSlot(Action):
 
         return [SlotSet("faq", topic)]
 
+
+class ActionGuardarproductoDesconocido(Action):
+    """Stores unknown tools people are migrating from in a slot"""
+
+    def name(self) -> Text:
+        return "action_guardar_producto_desconocido"
+
+    def run(self, dispatcher, tracker, domain) -> List[EventType]:
+        return [SlotSet("producto_desconocido", tracker.latest_message.get("text"))]
+
+
 class ActionDefaultAskAffirmation(Action):
     """Asks for an affirmation of the intent if NLU threshold is not met."""
 
@@ -113,6 +191,8 @@ class ActionDefaultAskAffirmation(Action):
     ) -> List[EventType]:
 
         intent_ranking = tracker.latest_message.get("intent_ranking", [])
+        print(intent_ranking)
+
         if len(intent_ranking) > 1:
             diff_intent_confidence = intent_ranking[0].get(
                 "confidence"
@@ -122,6 +202,10 @@ class ActionDefaultAskAffirmation(Action):
             else:
                 intent_ranking = intent_ranking[:1]
 
+        # for the intent name used to retrieve the button title, we either use
+        # the name of the name of the "main" intent, or if it's an intent that triggers
+        # the response selector, we use the full retrieval intent name so that we
+        # can distinguish between the different sub intents
         first_intent_names = [
             intent.get("name", "")
             if intent.get("name", "") not in ["out_of_scope", "faq", "chitchat"]
@@ -141,10 +225,12 @@ class ActionDefaultAskAffirmation(Action):
         entities_json = json.dumps(entities)
 
         buttons = []
-        
         for intent in first_intent_names:
             button_title = self.get_button_title(intent, entities)
             if "/" in intent:
+                # here we use the button title as the payload as well, because you
+                # can't force a response selector sub intent, so we need NLU to parse
+                # that correctly
                 buttons.append({"title": button_title, "payload": button_title})
             else:
                 buttons.append(
@@ -157,18 +243,48 @@ class ActionDefaultAskAffirmation(Action):
 
         return []
 
-    def get_button_title(self, intent: Text, entities: Dict[Text, Text]) -> Text:
-        default_utterance_query = self.intent_mappings.intent == intent
-        utterance_query = (self.intent_mappings.entities == entities.keys()) & (
-            default_utterance_query
-        )
+        def get_button_title(self, intent: Text, entities: Dict[Text, Text]) -> Text:
+            default_utterance_query = self.intent_mappings.intent == intent
 
-        utterances = self.intent_mappings[utterance_query].button.tolist()
+            utterance_query = (self.intent_mappings.entities == entities.keys()) & (
+                default_utterance_query
+            )
 
-        if len(utterances) > 0:
-            button_title = utterances[0]
+            utterances = self.intent_mappings[utterance_query].button.tolist()
+
+            if len(utterances) > 0:
+                button_title = utterances[0]
+            else:
+                utterances = self.intent_mappings[
+                    default_utterance_query
+                ].button.tolist()
+                button_title = utterances[0] if len(utterances) > 0 else intent
+
+            return button_title.format(**entities)
+
+
+class ActionDefaultFallback(Action):
+    def name(self) -> Text:
+        return "action_default_fallback"
+
+    def run(
+        self,
+        dispatcher: CollectingDispatcher,
+        tracker: Tracker,
+        domain: Dict[Text, Any],
+    ) -> List[EventType]:
+
+        # Fallback caused by TwoStageFallbackPolicy
+        if (
+            len(tracker.events) >= 4
+            and tracker.events[-4].get("name") == "action_default_ask_affirmation"
+        ):
+
+            dispatcher.utter_message(template="utter_restart_with_button")
+
+            return [SlotSet("feedback_value", "negative"), ConversationPaused()]
+
+        # Fallback caused by Core
         else:
-            utterances = self.intent_mappings[default_utterance_query].button.tolist()
-            button_title = utterances[0] if len(utterances) > 0 else intent
-
-        return button_title.format(**entities)
+            dispatcher.utter_message(template="utter_default")
+            return [UserUtteranceReverted()]

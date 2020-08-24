@@ -700,6 +700,11 @@
 - llévame al siguiente paso
 - Cuál es el próximo paso ?
 
+## intent:welcome
+- welcome
+- Welcome
+- Hello, welcome
+
 ## synonym:si
 - SI
 - sI
