@@ -12,6 +12,8 @@ intents:
   - iniciar_consulta
   - usuario_nombre
   - informacion
+  - usuario_nombre_si
+  - usuario_nombre_no
   - feedback
   - trigger_rephrase
   - pregunta_porque_lawbotia
@@ -42,7 +44,6 @@ entities:
   - email
   - competencia
   - idioma
-  - funcion_trabajo
   - feedback_value
   
 
@@ -56,20 +57,8 @@ slots:
     - False
   shown_privacy:
     type: unfeaturized
-  guardar_nombre:
-    type: categorical
-    values:
-      - si
-      - no
   nombre:
     type: unfeaturized
-  informacion:
-    type: categorical
-    values:
-      - general
-      - consulta
-      - documento
-      - otro
   producto:
     type: categorical
     values:
@@ -81,15 +70,15 @@ slots:
   feedback_value:
     type: categorical
     values:
-      - positive
-      - negative
+      - positivo
+      - negativo
   
   
 
 responses:
   utter_welcome_avatar:
     - text: Este es el Abogado Angel!
-      image: "https://i.imgur.com/nGF1K8f.jpg"
+      image: "https://i.postimg.cc/7LtgrQzC/imagen-inicio.png"
   utter_welcome_saludo:
     - text: Bienvenido!!
   utter_welcome_angel:
@@ -108,9 +97,9 @@ responses:
         \  [política de privacidad] (https://lawbotia.com/privacidad/)"
   utter_pedir_nombre:
     - buttons:
-        - payload: /usuario_nombre{"guardar_nombre":"si"}
+        - payload: /usuario_nombre_si
           title: Si
-        - payload: /usuario_nombre{"guardar_nombre":"no"}
+        - payload: /usuario_nombre_no
           title: No
       text: "Para brindarle un servicio más personalizado quisiera que me \ 
       \ brindara su nombre. ¿Quiere proporcionarnos su nombre?"
@@ -146,7 +135,7 @@ responses:
   utter_info_error:
     - text: info
   utter_especificar:
-    - image: "https://i.imgur.com/nGF1K8f.jpg"
+    - image: "https://i.postimg.cc/kMKtT5TR/imagen-otro-tema.png"
       text: Esta información fue un buen comienzo, ¿Cuenteme realmente que está buscando?
   utter_faq_lawbotia_mas:
     - text: "Para más información sobre nuestra empresa la puede encontar \ 
@@ -167,9 +156,23 @@ responses:
     - text: Lo siento, esa es toda la información que tengo sobre ese tema 😕
     - text: "Discúlpe, en este momento es toda la información que tengo, pero mejoramos \ 
         \ cada día para ofrecer un mejor servicio."
-  
-  
-  
+  utter_ask_rephrase:
+    - text: ¿Puedes reformular la pregunta?
+  utter_default:
+    - text: Lo siento, no lo entendí 🤷. ¿Podrías reformular la pregunta?
+    - text: No entendí, ¿podrías reformular eso?
+    - text: lo siento, pero no te entendí. ¿Podría reformular lo que dijo?
+    - text: Me temo que no entendí lo que acabas de decir. ¿Podrías reformular eso?
+    - text: No entendí bien eso, ¿podrías reformular tu mensaje?
+    - text: ¿Podrías reformular tu mensaje? No lo entendí, lo siento.
+  utter_restart:
+    - text: Cargando ... ¡Y he reiniciado! 🤯
+    - text: ¡Felicidades, me has reiniciado! 😉
+  utter_restart_with_button:
+    - buttons:
+      - payload: /restart
+        title: Comenzar de nuevo
+      text: Haga clic en el botón de abajo si desea comenzar de nuevo.
   utter_saludo:
     - text: Bienvenido, en qué le puedemos colaborar?
     - text: Bienvenido, en qué le puedemos servir?
@@ -187,11 +190,9 @@ responses:
     - text: Entendido!
   utter_sin_ayuda:
     - text:
-        Por ahora es todo lo que puedo hacer. Si tiene alguna sugerencia  por favor
-        dejenosla saber!
+        Por ahora es todo lo que puedo hacer. Si tiene alguna sugerencia  por favor dejenosla saber!
     - text:
-        Por ahora es todo lo que puedo hacer, sin embargo cada día mejoro para  prestar
-        un mejor servicio
+        Por ahora es todo lo que puedo hacer, sin embargo cada día mejoro para  prestar un mejor servicio
     - text: Lo siento, no entiendo tu consulta
   utter_mas_informacion:
     - text: Seguro, vamos a programar una llamada de nuestro asesor comercial
@@ -225,8 +226,7 @@ responses:
     - text: Lo siento, esto puede mejorar
   utter_contacto_email:
     - text:
-        No puede hablar con un humano directamente en este chat, pero puede enviarnos
-        un correo electrónico a contacto@lawbotia.com
+        No puede hablar con un humano directamente en este chat, pero puede enviarnos un correo electrónico a contacto@lawbotia.com
   utter_porque_lawbotia:
     - text: lawbotia es ...
   utter_pregunta_mas_lawbotia:
@@ -304,6 +304,8 @@ actions:
   - action_explain_faq
   - action_set_faq_slot
   - action_guardar_producto_desconocido
+  - action_default_ask_affirmation
+  - action_default_fallback
   - utter_preguntar_feedback
   - utter_saludo
   - utter_saludo_nombre

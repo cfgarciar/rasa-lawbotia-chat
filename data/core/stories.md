@@ -44,7 +44,7 @@
     - action_info_user
 
 ## guardar nombre usuario
-* usuario_nombre{"guardar_nombre":"si"}
+* usuario_nombre_si
     - utter_grandioso
     - user_name_form
     - form{"name": "user_name_form"}
@@ -52,7 +52,7 @@
     - utter_posibilidades
 
 ## no guardar nombre usuario
-* usuario_nombre{"guardar_nombre":"no"}
+* usuario_nombre_no
     - utter_sin_problemas
     - utter_posibilidades
 

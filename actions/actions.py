@@ -1,3 +1,4 @@
+import json
 from typing import Any, Dict, List, Text, Union, Optional
 
 from rasa_sdk import Action, Tracker
@@ -10,6 +11,7 @@ from rasa_sdk.events import (
     EventType,
     FollowupAction,
 )
+
 
 INTENT_DESCRIPTION_MAPPING_PATH = "actions/intent_description_mapping.csv"
 
@@ -42,7 +44,7 @@ class ActionInfoUser(Action):
         return "action_info_user"
 
     def run(self, dispatcher, tracker, domain) -> List[EventType]:
-        info = tracker.get_slot("informacion")
+        info = next(tracker.get_latest_entity_values("info"), None)
         if info == "general":
             dispatcher.utter_message(template="utter_info_general")
             dispatcher.utter_message(template="utter_especificar")
@@ -55,7 +57,7 @@ class ActionInfoUser(Action):
             dispatcher.utter_message(template="utter_info_documento")
             dispatcher.utter_message(template="utter_especificar")
             return []
-        elif info == "documento":
+        elif info == "otro":
             dispatcher.utter_message(template="utter_info_otro")
             dispatcher.utter_message(template="utter_especificar")
             return []
@@ -191,8 +193,7 @@ class ActionDefaultAskAffirmation(Action):
     ) -> List[EventType]:
 
         intent_ranking = tracker.latest_message.get("intent_ranking", [])
-        print(intent_ranking)
-
+        
         if len(intent_ranking) > 1:
             diff_intent_confidence = intent_ranking[0].get(
                 "confidence"
@@ -201,11 +202,13 @@ class ActionDefaultAskAffirmation(Action):
                 intent_ranking = intent_ranking[:2]
             else:
                 intent_ranking = intent_ranking[:1]
+        print(intent_ranking)        
 
         # for the intent name used to retrieve the button title, we either use
         # the name of the name of the "main" intent, or if it's an intent that triggers
         # the response selector, we use the full retrieval intent name so that we
         # can distinguish between the different sub intents
+
         first_intent_names = [
             intent.get("name", "")
             if intent.get("name", "") not in ["out_of_scope", "faq", "chitchat"]
@@ -214,19 +217,21 @@ class ActionDefaultAskAffirmation(Action):
             .get("full_retrieval_intent")
             for intent in intent_ranking
         ]
+        print(first_intent_names) 
 
         message_title = (
-            "Sorry, I'm not sure I've understood " "you correctly 🤔 Do you mean..."
+            "Lo siento, no estoy segura de haber entendido" "correctamente 🤔 ¿Quieres decir ..."
         )
 
         entities = tracker.latest_message.get("entities", [])
         entities = {e["entity"]: e["value"] for e in entities}
 
         entities_json = json.dumps(entities)
+        print(entities_json) 
 
         buttons = []
         for intent in first_intent_names:
-            button_title = self.get_button_title(intent, entities)
+            button_title = get_button_title(intent, entities)
             if "/" in intent:
                 # here we use the button title as the payload as well, because you
                 # can't force a response selector sub intent, so we need NLU to parse
@@ -237,30 +242,32 @@ class ActionDefaultAskAffirmation(Action):
                     {"title": button_title, "payload": f"/{intent}{entities_json}"}
                 )
 
-        buttons.append({"title": "Something else", "payload": "/trigger_rephrase"})
+        buttons.append({"title": "Algún otro asunto", "payload": "/trigger_rephrase"})
 
         dispatcher.utter_message(text=message_title, buttons=buttons)
 
         return []
 
-        def get_button_title(self, intent: Text, entities: Dict[Text, Text]) -> Text:
-            default_utterance_query = self.intent_mappings.intent == intent
 
-            utterance_query = (self.intent_mappings.entities == entities.keys()) & (
-                default_utterance_query
-            )
+def get_button_title(self, intent: Text, entities: Dict[Text, Text]) -> Text:
 
-            utterances = self.intent_mappings[utterance_query].button.tolist()
+    default_utterance_query = self.intent_mappings.intent == intent
 
-            if len(utterances) > 0:
-                button_title = utterances[0]
-            else:
-                utterances = self.intent_mappings[
-                    default_utterance_query
-                ].button.tolist()
-                button_title = utterances[0] if len(utterances) > 0 else intent
+    utterance_query = (self.intent_mappings.entities == entities.keys()) & (
+        default_utterance_query
+    )
 
-            return button_title.format(**entities)
+    utterances = self.intent_mappings[utterance_query].button.tolist()
+
+    if len(utterances) > 0:
+        button_title = utterances[0]
+    else:
+        utterances = self.intent_mappings[
+            default_utterance_query
+        ].button.tolist()
+        button_title = utterances[0] if len(utterances) > 0 else intent
+
+    return button_title.format(**entities)
 
 
 class ActionDefaultFallback(Action):
@@ -282,7 +289,7 @@ class ActionDefaultFallback(Action):
 
             dispatcher.utter_message(template="utter_restart_with_button")
 
-            return [SlotSet("feedback_value", "negative"), ConversationPaused()]
+            return [SlotSet("feedback_value", "negativo"), ConversationPaused()]
 
         # Fallback caused by Core
         else:
